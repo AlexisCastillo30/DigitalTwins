@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\",
+  "WorkspaceRootPath": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\desktop\\hubsbrowser24_autodeskboton\\wwwroot\\extensions\\temperatureextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\temperatureextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\temperatureextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\desktop\\hubsbrowser24_autodeskboton\\wwwroot\\extensions\\temperaturedata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\temperaturedata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\desktop\\hubsbrowser24_autodeskboton\\wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\desktop\\hubsbrowser24_autodeskboton\\wwwroot\\extensions\\summarypanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\summarypanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,53 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 496,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TemperatureData.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\TemperatureData.js",
-              "RelativeDocumentMoniker": "wwwroot\\extensions\\TemperatureData.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\TemperatureData.js",
-              "RelativeToolTip": "wwwroot\\extensions\\TemperatureData.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-28T14:00:34.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SummaryPanel.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\SummaryPanel.js",
-              "RelativeDocumentMoniker": "wwwroot\\extensions\\SummaryPanel.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\SummaryPanel.js",
-              "RelativeToolTip": "wwwroot\\extensions\\SummaryPanel.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-28T14:00:33.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\main.css",
-              "RelativeDocumentMoniker": "wwwroot\\main.css",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\main.css",
-              "RelativeToolTip": "wwwroot\\main.css",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAAAOYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-27T19:56:21.377Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TemperatureExtension.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\TemperatureExtension.js",
+              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureExtension.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\TemperatureExtension.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\TemperatureExtension.js",
+              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureExtension.js",
               "RelativeToolTip": "wwwroot\\extensions\\TemperatureExtension.js",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAgwJkAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-28T13:57:03.812Z",
               "EditorCaption": ""

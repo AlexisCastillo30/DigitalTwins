@@ -1298,11 +1298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\hubsbrowser24.csproj",
+      "projectUniqueName": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\hubsbrowser24.csproj",
       "projectName": "hubsbrowser24",
-      "projectPath": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\hubsbrowser24.csproj",
+      "projectPath": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\hubsbrowser24.csproj",
       "packagesPath": "C:\\Users\\bayron.cuesta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\obj\\",
+      "outputPath": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bayron.cuesta\\AppData\\Roaming\\NuGet\\NuGet.Config",

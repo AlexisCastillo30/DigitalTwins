@@ -10,7 +10,6 @@ class TemperatureExtension extends BaseExtension {
         this._labels = []; // Almacena referencias a los labels creados
     }
 
-
     async load() {
         super.load();       
         console.log('TemperatureExtension loaded');

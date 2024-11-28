@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9TgpIbOY490=",
+  "dgSpecHash": "rU1FRKmhkcg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\hubsbrowser24.csproj",
+  "projectFilePath": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\hubsbrowser24.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bayron.cuesta\\.nuget\\packages\\autodesk.authentication\\2.0.0-beta4\\autodesk.authentication.2.0.0-beta4.nupkg.sha512",
     "C:\\Users\\bayron.cuesta\\.nuget\\packages\\autodesk.datamanagement\\2.0.0-beta4\\autodesk.datamanagement.2.0.0-beta4.nupkg.sha512",
