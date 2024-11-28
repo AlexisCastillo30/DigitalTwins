@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hubsbrowser24")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f376d39d7f0e3ac5fe2a26f1ddc1bcf4ce1f3f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+664805c83c494187fa60eb065b9e2c021bd9795d")]
 [assembly: System.Reflection.AssemblyProductAttribute("hubsbrowser24")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hubsbrowser24")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FniNutuboGcGaKFfl/8Vk+Lp5S+bZQTDlPwWb8Bx90s=",
+  "Hash": "aNCPC6ng9NBGiwQiIC+8unSF1/PDjlnpUuUaeF5v7qA=",
   "Source": "hubsbrowser24",
   "BasePath": "_content/hubsbrowser24",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "hubsbrowser24\\wwwroot",
       "Source": "hubsbrowser24",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\BaseExtension.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\BaseExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/BaseExtension.js",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\BaseExtension.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\DataGridExtension.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\DataGridExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/DataGridExtension.js",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\DataGridExtension.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\DataGridPanel.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\DataGridPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/DataGridPanel.js",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\DataGridPanel.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\HistogramExtension.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistogramExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/HistogramExtension.js",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\HistogramExtension.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\HistogramPanel.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistogramPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/HistogramPanel.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\HistogramPanel.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\HistoricalDataView.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistoricalDataView.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/HistoricalDataView.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\HistoricalDataView.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\LoggerExtension.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\LoggerExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/LoggerExtension.js",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\LoggerExtension.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\SummaryPanel.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\SummaryPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/SummaryPanel.js",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\SummaryPanel.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\TemperatureData.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureData.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/TemperatureData.js",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\TemperatureData.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\extensions\\TemperatureExtension.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/TemperatureExtension.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\TemperatureExtension.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\index.html",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\main.css",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "main.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\main.css"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\main.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "main.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\main.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\sidebar.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\sidebar.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "sidebar.js",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\sidebar.js"
     },
     {
-      "Identity": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\viewer.js",
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\viewer.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\Desktop\\hubsbrowser24_AutodeskBoton\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "viewer.js",
       "AssetKind": "All",

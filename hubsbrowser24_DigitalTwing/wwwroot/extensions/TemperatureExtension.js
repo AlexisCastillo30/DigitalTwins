@@ -14,6 +14,7 @@ class TemperatureExtension extends BaseExtension {
         super.load();       
         console.log('TemperatureExtension loaded');
         return true;
+
     }
 
     unload() {
