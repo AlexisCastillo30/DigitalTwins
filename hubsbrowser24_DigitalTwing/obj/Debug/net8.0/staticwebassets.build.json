@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aNCPC6ng9NBGiwQiIC+8unSF1/PDjlnpUuUaeF5v7qA=",
+  "Hash": "48OoVfVHRpXz1+p9nTo02AxO1MaYClEpClhoNFVGXzo=",
   "Source": "hubsbrowser24",
   "BasePath": "_content/hubsbrowser24",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\extensions\\DataGridPanel.js"
+    },
+    {
+      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\GeorefExtension.js",
+      "SourceId": "hubsbrowser24",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
+      "BasePath": "_content/hubsbrowser24",
+      "RelativePath": "extensions/GeorefExtension.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\extensions\\GeorefExtension.js"
     },
     {
       "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistogramExtension.js",

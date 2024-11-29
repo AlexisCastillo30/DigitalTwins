@@ -2,6 +2,7 @@
 import './extensions/SummaryExtension.js';
 import './extensions/HistogramExtension.js';
 import './extensions/DataGridExtension.js';
+import './extensions/GeorefExtension.js';
 
 import './extensions/TemperatureExtension.js';
 
@@ -22,7 +23,7 @@ export function initViewer(container) {
     return new Promise(function (resolve, reject) {
         Autodesk.Viewing.Initializer({ env: 'AutodeskProduction', getAccessToken }, function () {
             const config = {
-                extensions: ['Autodesk.DocumentBrowser', 'LoggerExtension', 'SummaryExtension', 'HistogramExtension', 'DataGridExtension', 'TemperatureExtension']
+                extensions: ['Autodesk.DocumentBrowser', 'LoggerExtension', 'SummaryExtension', 'HistogramExtension', 'DataGridExtension', 'TemperatureExtension', 'GeorefExtension']
             };
             const viewer = new Autodesk.Viewing.GuiViewer3D(container, config);
             viewer.start();
