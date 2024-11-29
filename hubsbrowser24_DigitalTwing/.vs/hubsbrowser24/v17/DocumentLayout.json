@@ -22,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 496,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -38,8 +42,7 @@
               "RelativeToolTip": "wwwroot\\viewer.js",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwDEAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-29T17:11:51.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T17:11:51.823Z"
             },
             {
               "$type": "Document",
@@ -64,8 +67,7 @@
               "RelativeToolTip": "wwwroot\\extensions\\TemperatureExtension.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-28T13:57:03.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T13:57:03.812Z"
             }
           ]
         }
