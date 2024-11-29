@@ -25,4 +25,11 @@
     <PackageReference Include="Autodesk.Oss" Version="2.0.0-beta2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\extensions\GeorefExtension.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

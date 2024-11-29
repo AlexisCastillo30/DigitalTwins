@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\georefextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\georefextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\temperatureextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\temperatureextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 496,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,7 +30,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "viewer.js",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\viewer.js",
+              "RelativeDocumentMoniker": "wwwroot\\viewer.js",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\viewer.js",
+              "RelativeToolTip": "wwwroot\\viewer.js",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwDEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-29T17:11:51.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GeorefExtension.js",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\GeorefExtension.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\GeorefExtension.js",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\GeorefExtension.js",
+              "RelativeToolTip": "wwwroot\\extensions\\GeorefExtension.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-29T17:04:17.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TemperatureExtension.js",
               "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureExtension.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\TemperatureExtension.js",

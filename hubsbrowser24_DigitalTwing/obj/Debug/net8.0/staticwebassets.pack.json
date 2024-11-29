@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\extensions\\DataGridPanel.js"
     },
     {
+      "Id": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\GeorefExtension.js",
+      "PackagePath": "staticwebassets\\extensions\\GeorefExtension.js"
+    },
+    {
       "Id": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistogramExtension.js",
       "PackagePath": "staticwebassets\\extensions\\HistogramExtension.js"
     },
