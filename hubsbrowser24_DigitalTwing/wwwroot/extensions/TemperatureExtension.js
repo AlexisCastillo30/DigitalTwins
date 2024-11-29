@@ -1,5 +1,6 @@
 ﻿import { BaseExtension } from './BaseExtension.js';
 import { TemperatureData } from './TemperatureData.js';
+
 class TemperatureExtension extends BaseExtension {
     constructor(viewer, options) {
         super(viewer, options);
@@ -11,7 +12,31 @@ class TemperatureExtension extends BaseExtension {
     }
 
     async load() {
-        super.load();       
+        super.load();
+
+        // Escuchar el evento de carga completa del modelo
+        this.onModelLoaded = this.onModelLoaded.bind(this);
+        this.viewer.addEventListener(Autodesk.Viewing.GEOMETRY_LOADED_EVENT, this.onModelLoaded);
+
+        // Conectar a SignalR
+        this.connection = new signalR.HubConnectionBuilder()
+            .withUrl("/sensorHub")
+            .build();
+
+        this.connection.on("ReceiveSensorData", (sensorData) => {
+            console.log('Datos de sensor recibidos:', sensorData);
+
+            // Actualizar los datos de temperatura
+            TemperatureData.update(sensorData);
+
+            // Si la extensión está habilitada, actualizar los markups
+            if (this._enabled) {
+                this.showIcons(true);
+            }
+        });
+
+        await this.connection.start();
+
         console.log('TemperatureExtension loaded');
         return true;
     }
@@ -19,7 +44,12 @@ class TemperatureExtension extends BaseExtension {
     unload() {
         super.unload();
 
-        // Limpia los markups al descargar la extensión
+        // Desconectar de SignalR
+        if (this.connection) {
+            this.connection.stop();
+        }
+
+        // Limpia los markups y eventos
         this.clearLabels();
         this.viewer.removeEventListener(Autodesk.Viewing.CAMERA_CHANGE_EVENT, this.updateIcons.bind(this));
 
@@ -31,6 +61,48 @@ class TemperatureExtension extends BaseExtension {
         console.log('TemperatureExtension unloaded');
         return true;
     }
+
+    onModelLoaded() {
+        // Remover el listener para evitar llamadas múltiples
+        this.viewer.removeEventListener(Autodesk.Viewing.GEOMETRY_LOADED_EVENT, this.onModelLoaded);
+
+        // Construir el mapeo de dbId a fragmentos
+        this.buildFragmentMapping();
+    }
+
+    buildFragmentMapping() {
+        const instanceTree = this.viewer.model.getInstanceTree();
+
+        if (!instanceTree) {
+            console.error('El árbol de instancias no está disponible.');
+            return;
+        }
+
+        this._frags = {}; // Reiniciar el mapeo
+
+        const _this = this;
+
+        function traverseTree(nodeId) {
+            const fragIds = [];
+            instanceTree.enumNodeFragments(nodeId, function (fragId) {
+                fragIds.push(fragId);
+            });
+
+            if (fragIds.length > 0) {
+                _this._frags['dbId' + nodeId] = fragIds;
+            }
+
+            instanceTree.enumNodeChildren(nodeId, function (childId) {
+                traverseTree(childId);
+            });
+        }
+
+        traverseTree(instanceTree.getRootId());
+
+        // Agrega este log
+        console.log('Mapeo de fragmentos:', this._frags);
+    }
+
 
     onToolbarCreated() {
         // Crear el botón en la barra de herramientas
@@ -57,26 +129,19 @@ class TemperatureExtension extends BaseExtension {
         // Limpia los labels previos
         this.clearLabels();
 
-        if (!show) return; // Si deshabilitado, salir
+        if (!show) return;
 
         const temperatureData = TemperatureData.getTemperatureData();
+        console.log('Datos de temperatura:', temperatureData);
         const instanceTree = this.viewer.model.getInstanceTree();
-        const fragList = this.viewer.model.getFragmentList();
 
-        if (!instanceTree || !fragList) {
-            console.error('El árbol de instancias o la lista de fragmentos no está disponible.');
+        if (!instanceTree) {
+            console.error('El árbol de instancias no está disponible.');
             return;
         }
 
         // Crear los markups para cada dbId
         temperatureData.icons.forEach((icon) => {
-            this._frags['dbId' + icon.dbId] = []; // Inicializa los fragmentos para el dbId
-
-            instanceTree.enumNodeFragments(icon.dbId, (fragId) => {
-                this._frags['dbId' + icon.dbId].push(fragId); // Almacena los fragmentos
-            });
-
-            // Obtener el centro del boundingBox
             const bbox = this.getModifiedWorldBoundingBox(icon.dbId);
             if (!bbox || bbox.isEmpty()) {
                 console.warn(`No se pudo obtener el boundingBox para dbId: ${icon.dbId}`);
@@ -87,7 +152,7 @@ class TemperatureExtension extends BaseExtension {
 
             // Crear un label (markup) en HTML
             const label = document.createElement('div');
-            label.className = `temperatureBorder`; // Clase base para el label
+            label.className = 'temperatureBorder'; // Clase base para el label
             label.innerHTML = `
                 <div class="${this.getTemperatureClass(icon.label)}">
                     ${icon.label}
@@ -114,10 +179,17 @@ class TemperatureExtension extends BaseExtension {
         const fragList = this.viewer.model.getFragmentList();
         const bbox = new THREE.Box3();
 
-        this._frags['dbId' + dbId]?.forEach((fragId) => {
+        const fragIds = this._frags['dbId' + dbId];
+
+        if (!fragIds || fragIds.length === 0) {
+            console.warn(`No se encontraron fragmentos para dbId: ${dbId}`);
+            return null;
+        }
+
+        fragIds.forEach((fragId) => {
             const fragBBox = new THREE.Box3();
             fragList.getWorldBounds(fragId, fragBBox);
-            bbox.union(fragBBox); // Unir bounding boxes de los fragmentos
+            bbox.union(fragBBox);
         });
 
         return bbox;
@@ -148,19 +220,19 @@ class TemperatureExtension extends BaseExtension {
         this._labels = [];
     }
 
-
     getTemperatureClass(label) {
         const value = parseInt(label.replace(/\D/g, ''), 10); // Extraer el número de la etiqueta
 
-        // Si el valor no es un número válido (NaN), devolver verde (mantenimiento)
+        // Si el valor no es un número válido (NaN), devolver clase 'maintenance'
         if (isNaN(value)) return 'maintenance';
 
         // Clasificar según el rango de temperatura
         if (value >= 30) return 'temperatureHigh';   // Rojo
         if (value >= 27) return 'temperatureYellow'; // Amarillo cálido
-        if (value >= 20) return 'temperatureOk';     // Azul
-        if (value >= 15) return 'temperatureBlue'; // Amarillo frío
-        return 'temperatureLow';                   // Rojo (frío extremo)
-    } 
+        if (value >= 20) return 'temperatureOk';     // Verde
+        if (value >= 15) return 'temperatureBlue';   // Azul
+        return 'temperatureLow';                     // Azul oscuro
+    }
 }
+
 Autodesk.Viewing.theExtensionManager.registerExtension('TemperatureExtension', TemperatureExtension);

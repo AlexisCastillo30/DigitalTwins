@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using hubsbrowser24.Services;
+using hubsbrowser24.Hubs;
 
 public class Startup
 {
@@ -26,6 +28,9 @@ public class Startup
             throw new ApplicationException("Missing required environment variables APS_CLIENT_ID, APS_CLIENT_SECRET, or APS_CALLBACK_URL.");
         }
         services.AddSingleton(new APS(clientID, clientSecret, callbackURL));
+        services.AddControllersWithViews();
+        services.AddSignalR();
+        services.AddSingleton<MongoDbService>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,11 +41,13 @@ public class Startup
             app.UseDeveloperExceptionPage();
         }
         app.UseDefaultFiles();
-        app.UseStaticFiles();
+        app.UseStaticFiles();        
         app.UseRouting();
+
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllers();
+            endpoints.MapHub<SensorHub>("/sensorHub"); // Mapear el hub de SignalR
         });
     }
 }
