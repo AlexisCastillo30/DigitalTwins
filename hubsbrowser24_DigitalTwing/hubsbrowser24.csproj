@@ -23,6 +23,8 @@
     <PackageReference Include="Autodesk.DataManagement" Version="2.0.0-beta4" />
     <PackageReference Include="Autodesk.ModelDerivative" Version="2.0.0-beta3" />
     <PackageReference Include="Autodesk.Oss" Version="2.0.0-beta2" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="MongoDB.Driver" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>
