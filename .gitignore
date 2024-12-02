@@ -1,17 +1,6 @@
-# Ignorar carpetas de Visual Studio
+# Ignorar archivos y carpetas de Visual Studio
 .vs/
-obj/
+
+# Ignorar archivos de compilación
 bin/
-
-# Ignorar extensiones de archivos generados
-*.suo
-*.exe
-*.dll
-*.pdb
-*.v2
-*.cache
-*.json
-
-# Ignorar otros archivos generados
-debug/
-release/
+obj/
