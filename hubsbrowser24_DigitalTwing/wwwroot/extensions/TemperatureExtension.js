@@ -234,6 +234,4 @@ class TemperatureExtension extends BaseExtension {
         return 'temperatureLow';                     // Azul oscuro
     }
 }
-
-
 Autodesk.Viewing.theExtensionManager.registerExtension('TemperatureExtension', TemperatureExtension);
