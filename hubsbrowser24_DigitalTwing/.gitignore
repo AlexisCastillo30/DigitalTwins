@@ -10,9 +10,8 @@ bin/
 *.pdb
 *.v2
 *.cache
-*.log
-
-# Ignorar archivos temporales JSON
 *.json
+
+# Ignorar otros archivos temporales
 debug/
 release/
