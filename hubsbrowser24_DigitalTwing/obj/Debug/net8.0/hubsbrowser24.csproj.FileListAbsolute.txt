@@ -143,13 +143,6 @@ C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj
 C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.pdb
 C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.genruntimeconfig.cache
 C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\ref\hubsbrowser24.dll
-C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.csproj.AssemblyReference.cache
-C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.AssemblyInfoInputs.cache
-C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.AssemblyInfo.cs
-C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.csproj.CoreCompileInputs.cache
-C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.sourcelink.json
 C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\appsettings.json
 C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\hubsbrowser24.staticwebassets.runtime.json
@@ -173,6 +166,13 @@ C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrows
 C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\Snappier.dll
 C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
 C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.csproj.AssemblyReference.cache
+C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.AssemblyInfoInputs.cache
+C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.AssemblyInfo.cs
+C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.csproj.CoreCompileInputs.cache
+C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.sourcelink.json
 C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\bayron.cuesta\OneDrive - AECOM\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\staticwebassets\msbuild.hubsbrowser24.Microsoft.AspNetCore.StaticWebAssets.props
