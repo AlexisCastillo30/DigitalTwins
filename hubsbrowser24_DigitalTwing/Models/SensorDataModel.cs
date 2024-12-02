@@ -8,10 +8,13 @@ namespace hubsbrowser24.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        [JsonIgnore] // Usando System.Text.Json.Serialization
+        [BsonIgnoreIfNull]
+        [JsonIgnore]
         public string? Id { get; set; }
 
+        [BsonElement("dbId")]
         public int dbId { get; set; }
+
         public string title { get; set; }
         public SensorData data { get; set; }
     }
