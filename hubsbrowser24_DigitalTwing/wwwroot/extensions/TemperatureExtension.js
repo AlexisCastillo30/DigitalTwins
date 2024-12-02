@@ -235,4 +235,5 @@ class TemperatureExtension extends BaseExtension {
     }
 }
 
+
 Autodesk.Viewing.theExtensionManager.registerExtension('TemperatureExtension', TemperatureExtension);

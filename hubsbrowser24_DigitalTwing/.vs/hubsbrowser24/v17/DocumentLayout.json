@@ -46,12 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 496,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -64,7 +60,7 @@
               "RelativeDocumentMoniker": "wwwroot\\extensions\\TemperatureExtension.js",
               "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureExtension.js",
               "RelativeToolTip": "wwwroot\\extensions\\TemperatureExtension.js",
-              "ViewState": "AQIAAM8AAAAAAAAAAAAAAOkAAABDAAAA",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAAAO8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-12-02T16:26:32.997Z",
               "EditorCaption": ""
@@ -79,8 +75,7 @@
               "RelativeToolTip": "Startup.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:16:14.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T16:16:14.393Z"
             },
             {
               "$type": "Document",
@@ -92,8 +87,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-02T16:16:05.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T16:16:05.774Z"
             },
             {
               "$type": "Document",
@@ -105,8 +99,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-02T16:15:50.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T16:15:50.206Z"
             },
             {
               "$type": "Document",
@@ -118,8 +111,7 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-02T15:36:53.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:36:53.631Z"
             },
             {
               "$type": "Document",
@@ -131,8 +123,7 @@
               "RelativeToolTip": "Controllers\\SensorsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:18:19.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:18:19.418Z"
             },
             {
               "$type": "Document",
@@ -144,8 +135,7 @@
               "RelativeToolTip": "Hubs\\SensorHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:18:17.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:18:17.136Z"
             },
             {
               "$type": "Document",
@@ -157,8 +147,7 @@
               "RelativeToolTip": "Models\\SensorDataModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T14:48:43.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T14:48:43.224Z"
             },
             {
               "$type": "Document",
@@ -170,8 +159,7 @@
               "RelativeToolTip": "wwwroot\\index.html",
               "ViewState": "AQIAAAcAAAAAAAAAAAAmwCMAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-29T21:43:35.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T21:43:35.549Z"
             }
           ]
         }
