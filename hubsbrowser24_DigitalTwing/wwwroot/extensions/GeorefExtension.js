@@ -17,6 +17,7 @@ class GeorefExtension extends BaseExtension {
         super.onModelLoaded(model);
 
         const modelData = model.getData(); // Obtener los datos del modelo
+        const tipoArchivo = model.getData().loadOptions ? model.getData().loadOptions.fileExt : 'No disponible';
         if (modelData && modelData.metadata && modelData.metadata.georeference) {
             const georeference = modelData.metadata.georeference;
             const coordNS = georeference.positionNative ? georeference.positionNative[0] * 0.3048 : 'No disponible';
@@ -31,6 +32,7 @@ class GeorefExtension extends BaseExtension {
         } else {
             console.warn('El modelo cargado no contiene datos de georreferenciación.');
         }
+        console.log('El tipo de archivo es:', tipoArchivo);
     }
 
     async onSelectionChanged(model) {
