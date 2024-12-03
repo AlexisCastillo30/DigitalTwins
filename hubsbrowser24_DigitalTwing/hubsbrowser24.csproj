@@ -7,14 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\extensions\SensorDetailExtension.js" />
     <Content Remove="wwwroot\extensions\SummaryExtension.js" />
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\extensions\SensorDetailExtension.js" />
     <_ContentIncludedByDefault Remove="wwwroot\extensions\SummaryExtension.js" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\extensions\SensorDetailExtension.js" />
     <None Include="wwwroot\extensions\SummaryExtension.js" />
   </ItemGroup>
 
