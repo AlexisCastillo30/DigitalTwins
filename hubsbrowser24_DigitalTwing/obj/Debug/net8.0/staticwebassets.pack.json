@@ -33,6 +33,18 @@
       "PackagePath": "staticwebassets\\extensions\\LoggerExtension.js"
     },
     {
+      "Id": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\SensorHeatmapsExtension.js",
+      "PackagePath": "staticwebassets\\extensions\\SensorHeatmapsExtension.js"
+    },
+    {
+      "Id": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\SensorListExtension.js",
+      "PackagePath": "staticwebassets\\extensions\\SensorListExtension.js"
+    },
+    {
+      "Id": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\SensorSpritesExtension.js",
+      "PackagePath": "staticwebassets\\extensions\\SensorSpritesExtension.js"
+    },
+    {
       "Id": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\SummaryPanel.js",
       "PackagePath": "staticwebassets\\extensions\\SummaryPanel.js"
     },
