@@ -10,13 +10,13 @@
 }
 
 #toolbar {
-    position: relative;
-    top: 47px;
+    position: absolute;
+    top: 48px;
     display: flex;
     flex-direction: column;
     background-color: #2c2c2f; /* Fondo del toolbar */
     position: fixed;
-    width: 200px; /* Ancho normal del toolbar */
+    width: 220px; /* Ancho normal del toolbar */
     height: 100%;
     text-decoration: none;
     align-items: flex-start;
@@ -24,6 +24,79 @@
     justify-content: initial;
     transform-origin: top;
     transition: width 0.3s ease; /* Transición suave para el cambio de ancho */
+}
+
+/* Cuando el botón menu-btn se presiona */
+#toolbar.hidden {
+    width: 75px; /* Reducir el 70% del tamaño del toolbar */
+}
+
+.toolbar-btn {
+    position: relative;
+    left: 5px;
+    width: 60px; /* Ancho de los botones convertidos en círculos */
+    height: 60px; /* Alto de los botones igual al ancho */
+    top: 20px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%; /* Bordes redondeados (círculos) */
+    background-color: #000000;
+    color: transparent; /* El texto desaparece por defecto */
+    font-family: ArtifaktElement;
+    font-size: 1.2em; /* Ajuste del tamaño de íconos */
+    vertical-align: middle;
+    cursor: pointer;
+    transition: background-color 0.3s ease, width 0.3s ease; /* Agregar transición en el ancho */
+
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+#toolbar.hidden .toolbar-btn {
+    width: 60px; /* Ancho reducido */
+    border-radius: 50%; /* Círculo */
+}
+
+#toolbar:not(.hidden) .toolbar-btn {
+    width: 200px; /* Ancho normal cuando está expandido */
+    border-radius: 30px; /* Bordes más cuadrados cuando se expande */
+    color: white; /* Hacemos visible el texto */
+}
+
+/* Hacer visible el texto dentro del botón cuando el toolbar está expandido */
+#toolbar:not(.hidden) .toolbar-btn span {
+    display: inline-block;
+    color: white; /* Texto en blanco */
+    font-size: 0.9em; /* Ajustar el tamaño del texto */
+    padding-left: 10px; /* Separación del ícono */
+}
+
+/* Mantener el ícono centrado cuando el toolbar está oculto */
+#toolbar.hidden .toolbar-btn i {
+    display: block;
+    font-size: 1.5em; /* Ajuste del tamaño del ícono */
+    margin: auto;
+}
+
+.toolbar-btn span {
+    display: none; /* Ocultar el texto por defecto */
+}
+
+/* Estilos para los íconos dentro de los botones */
+.toolbar-btn i {
+    color: white; /* Color del ícono */
+    font-size: 1.5em; /* Tamaño del ícono */
+    transition: transform 0.3s ease; /* Efecto para animar el ícono */
+}
+
+.toolbar-btn:hover i {
+    transform: scale(1.2); /* Escala el ícono al pasar el ratón */
+}
+
+.toolbar-btn:hover {
+    background-color: #444444; /* Color más oscuro al pasar el ratón */
 }
 
 #header {
@@ -37,25 +110,9 @@
     color: #c7c7cc;
 }
 
-/*#sidebar {
-    width: 25%;
-    left: 0;
-    top: 3em;
-    bottom: 0;
-    overflow-x: auto;
-    overflow-y: scroll;
-    background-color: #3b3b3f;
-    color: #c7c7cc;
-    white-space: nowrap;
-}
-
-#sidebar * {
-    overflow: visible;
-    white-space: nowrap;
-} */
 #sidebar {
-    width: 50%;
-    left: 200px; /* Alineamos el sidebar con el toolbar */
+    width: 350px;
+    left: 220px; /* Alineamos el sidebar con el toolbar */
     top: 3em;
     bottom: 0;
     overflow-x: auto;
@@ -69,18 +126,38 @@
     transform: translateX(-100%); /* Oculta el sidebar al moverlo fuera de la pantalla */
 }
 
+.menu-btn {
+    position:relative;
+    left: 11px;
+    font-family: ArtifaktElement;
+    font-size: 1.5em; /* Tamaño del ícono */
+    background-color: transparent;
+    color: #c7c7cc;
+    border:solid;
+    border-color:gray;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.menu-btn i {
+    color: #c7c7cc; /* Color del ícono */
+    font-size: 1.5em; /* Tamaño del ícono */
+}
+
+
 #preview {
     top: 3em;
     right: 0;
     bottom: 0;
-    transition: width 0.3s ease, left 0.3s ease; /* Transición para el ancho y desplazamiento del preview */
-    width: 75%; /* El viewer ocupa el 75% cuando el sidebar está visible */
+    transition: width 0.3s ease; /* Transición para el ancho y desplazamiento del preview */
+    width: 80%; /* El viewer ocupa el 75% cuando el sidebar está visible */
 }
 
-#preview.expanded {
-    width:89%; /* El viewer ocupa todo el ancho cuando el sidebar está oculto */
-    left: 200px; /* El viewer se mueve a la izquierda */
-}
+/*#preview.expanded {
+    width:90%;*/ /* El viewer ocupa todo el ancho cuando el sidebar está oculto */
+    /*left: 200px;*/ /* El viewer se mueve a la izquierda */
+/*}*/
 
 @media (max-width: 768px) {
     #sidebar {
@@ -137,9 +214,6 @@
     display: block; /* Asegura que esté en una nueva línea */
     margin-top: 10px; /* Espaciado superior */
 }
-
-
-
 
 #header > * {
     height: 2em;

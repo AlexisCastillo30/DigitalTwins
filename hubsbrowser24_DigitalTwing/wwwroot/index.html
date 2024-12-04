@@ -7,21 +7,34 @@
     <link rel="icon" type="image/x-icon" href="https://cdn.autodesk.io/favicon.ico">
     <link rel="stylesheet" href="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/style.css">
     <link rel="stylesheet" href="https://unpkg.com/inspire-tree-dom@4.0.6/dist/inspire-tree-light.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="/main.css">
 
-    <title>Autodesk Platform Services: Hubs Browser</title>
+    <title>Digital Twins: BIM Dimensions</title>
 </head>
 
 <body>
     <div id="toolbar">
-        <button id="toggleSidebar">Ocultar Sidebar</button> <!-- Nuevo botón --> 
-        <button class="toolbarElem">Calidad Modelos BIM</button>
-        <button class="toolbarElem">Gemelos Digitales</button>
-        <button class="toolbarElem">Sostenibilidad</button>
-    </div>  
+        <button id="menu-btn" class="menu-btn">
+            <i class="fas fa-bars"></i> <!-- Ícono de menú -->
+        </button>
+        <button class="toolbar-btn" id="quality-btn">
+            <i class="fas fa-building"></i> <!-- Ícono por defecto -->
+            <span class="btn-text">BIM Quality</span> <!-- Texto cuando el toolbar está expandido -->
+        </button>
+        <button class="toolbar-btn">
+            <i class="fas fa-leaf"></i> <!-- Ícono de Sostenibilidad -->
+            <span class="btn-text">Sustainability</span> <!-- Texto cuando el toolbar está expandido -->
+        </button>
+        <button class="toolbar-btn">
+            <i class="fas fa-cogs"></i> <!-- Ícono de Gemelos Digitales -->
+            <span class="btn-text">Digital Twins</span> <!-- Texto cuando el toolbar está expandido -->
+        </button>
+
+    </div>
 
     <div id="header">
-        <img class="logo" src="https://cdn-aps-app.s3.us-east-2.amazonaws.com/AECOM_Logo_Reverse_RGB.png" alt="Autodesk Platform Services">
+        <img class="logo" src="https://cdn-aps-app.s3.us-east-2.amazonaws.com/AECOM_Logo_Reverse_RGB.png" alt="Digital Twins">
         <span class="title">
             <span class="digital">Digital</span><span class="dot">•</span><span class="twins">Twins™</span> <span class="sensors">Sensors</span>
         </span>

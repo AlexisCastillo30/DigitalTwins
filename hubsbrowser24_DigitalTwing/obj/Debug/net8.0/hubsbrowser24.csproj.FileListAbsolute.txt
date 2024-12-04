@@ -235,3 +235,10 @@ C:\Users\crist\OneDrive\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwin
 C:\Users\crist\OneDrive\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.pdb
 C:\Users\crist\OneDrive\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\hubsbrowser24.genruntimeconfig.cache
 C:\Users\crist\OneDrive\Documentos\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\obj\Debug\net8.0\ref\hubsbrowser24.dll
+C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\DnsClient.dll
+C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\Snappier.dll
+C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\sarmientoc\Documents\GitHub\DigitalTwins\hubsbrowser24_DigitalTwing\bin\Debug\net8.0\ZstdSharp.dll

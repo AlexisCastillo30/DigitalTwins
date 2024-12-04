@@ -28,14 +28,24 @@ try {
     alert('Could not initialize the application. See console for more details.');
     console.error(err);
 }
-document.getElementById('toggleSidebar').addEventListener('click', function () {
-    var sidebar = document.getElementById('sidebar');
-    var preview = document.getElementById('preview');
-    var toolbar = document.getElementById('toolbar');
+//document.getElementById('toggleSidebar').addEventListener('click', function () {
+//    var sidebar = document.getElementById('sidebar');
+//    var preview = document.getElementById('preview');
+//    var toolbar = document.getElementById('toolbar');
 
-    sidebar.classList.toggle('hidden'); // Alterna la visibilidad del sidebar
-    preview.classList.toggle('expanded'); // Expande el viewer
+//    sidebar.classList.toggle('hidden'); // Alterna la visibilidad del sidebar
+//    preview.classList.toggle('expanded'); // Expande el viewer
+//});
+document.getElementById('menu-btn').addEventListener('click', function () {
+    var toolbar = document.getElementById('toolbar');
+    toolbar.classList.toggle('hidden'); /* Alterna la visibilidad del toolbar */
+
+    var preview = document.getElementById('preview');
+    preview.classList.toggle('expanded'); /* Expande el área de vista previa */
 });
+
+
+
 
 
 
