@@ -1,0 +1,16 @@
+wwwroot\extensions\BaseExtension.js
+wwwroot\extensions\DataGridExtension.js
+wwwroot\extensions\DataGridPanel.js
+wwwroot\extensions\GeorefExtension.js
+wwwroot\extensions\HistogramExtension.js
+wwwroot\extensions\HistogramPanel.js
+wwwroot\extensions\HistoricalDataView.js
+wwwroot\extensions\LoggerExtension.js
+wwwroot\extensions\SummaryPanel.js
+wwwroot\extensions\TemperatureData.js
+wwwroot\extensions\TemperatureExtension.js
+wwwroot\index.html
+wwwroot\main.css
+wwwroot\main.js
+wwwroot\sidebar.js
+wwwroot\viewer.js

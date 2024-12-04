@@ -28,3 +28,15 @@ try {
     alert('Could not initialize the application. See console for more details.');
     console.error(err);
 }
+document.getElementById('toggleSidebar').addEventListener('click', function () {
+    var sidebar = document.getElementById('sidebar');
+    var preview = document.getElementById('preview');
+    var toolbar = document.getElementById('toolbar');
+
+    sidebar.classList.toggle('hidden'); // Alterna la visibilidad del sidebar
+    preview.classList.toggle('expanded'); // Expande el viewer
+});
+
+
+
+

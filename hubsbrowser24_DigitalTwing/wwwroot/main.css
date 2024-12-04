@@ -9,6 +9,23 @@
     position: absolute;
 }
 
+#toolbar {
+    position: relative;
+    top: 47px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2c2c2f; /* Fondo del toolbar */
+    position: fixed;
+    width: 200px; /* Ancho normal del toolbar */
+    height: 100%;
+    text-decoration: none;
+    align-items: flex-start;
+    z-index: 3000;
+    justify-content: initial;
+    transform-origin: top;
+    transition: width 0.3s ease; /* Transición suave para el cambio de ancho */
+}
+
 #header {
     height: 3em;
     width: 100%;
@@ -20,7 +37,7 @@
     color: #c7c7cc;
 }
 
-#sidebar {
+/*#sidebar {
     width: 25%;
     left: 0;
     top: 3em;
@@ -35,14 +52,66 @@
 #sidebar * {
     overflow: visible;
     white-space: nowrap;
-} 
+} */
+#sidebar {
+    width: 50%;
+    left: 200px; /* Alineamos el sidebar con el toolbar */
+    top: 3em;
+    bottom: 0;
+    overflow-x: auto;
+    overflow-y: scroll;
+    background-color: #3b3b3f;
+    color: #c7c7cc;
+    white-space: nowrap;    
+}
+
+#sidebar.hidden {
+    transform: translateX(-100%); /* Oculta el sidebar al moverlo fuera de la pantalla */
+}
 
 #preview {
+    top: 3em;
+    right: 0;
+    bottom: 0;
+    transition: width 0.3s ease, left 0.3s ease; /* Transición para el ancho y desplazamiento del preview */
+    width: 75%; /* El viewer ocupa el 75% cuando el sidebar está visible */
+}
+
+#preview.expanded {
+    width:89%; /* El viewer ocupa todo el ancho cuando el sidebar está oculto */
+    left: 200px; /* El viewer se mueve a la izquierda */
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        width: 100%;
+        top: 3em;
+        bottom: 75%;
+    }
+
+    #preview {
+        width: 100%;
+        top: 25%;
+        bottom: 0;
+    }
+}
+
+#toggleSidebar {
+    font-family: ArtifaktElement;
+    font-size: 1em;
+    background-color: #3b3b3f;
+    color: #c7c7cc;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*#preview {
     width: 75%;
     right: 0;
     top: 3em;
     bottom: 0;
-}
+}*/
 
 #preview .overlay-text {
     position: absolute;
@@ -160,12 +229,6 @@
     background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/clock-16.svg);
     background-size: cover;
 }
-
-
-
-
-
-
 
 .temperature-marker {
     background-color: white;

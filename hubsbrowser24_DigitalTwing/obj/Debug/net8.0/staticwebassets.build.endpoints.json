@@ -1,367 +1,19 @@
 {
   "Version": 1,
-  "Hash": "TaEfCcX2wV38NdpDhemmr+AOQItYWWMqPRQqtcSBN4Q=",
-  "Source": "hubsbrowser24",
-  "BasePath": "_content/hubsbrowser24",
-  "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "hubsbrowser24\\wwwroot",
-      "Source": "hubsbrowser24",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "Pattern": "**"
-    }
-  ],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\BaseExtension.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/BaseExtension#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "i7yq39ycrk",
-      "Integrity": "UgnqkBgZ6K6sOdSVsrbY50hLJ+IEhIOzuW1z+jT6aW0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\BaseExtension.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\DataGridExtension.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/DataGridExtension#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "rw3lpm6o52",
-      "Integrity": "9cf4/JQyVaGVYxKgdDVlrQXnKOUO9huYZFJCnacWGoY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\DataGridExtension.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\DataGridPanel.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/DataGridPanel#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "nvdo4nmetj",
-      "Integrity": "vYNXjpZbigzQ8i2nJxswspkryYyHC9urIJZru8E4YCk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\DataGridPanel.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\GeorefExtension.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/GeorefExtension#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "b8sszu0jqa",
-      "Integrity": "63iFgEa6LUh4q4Zcz1JCGxOz24k5pJKwtz0U/3Wk+Rg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\GeorefExtension.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistogramExtension.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/HistogramExtension#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "2jsgqf685c",
-      "Integrity": "krV4oy/6Mgnd5sw6UEG77Zi18Xi6X8EbhLRbtyv3EQA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\HistogramExtension.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistogramPanel.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/HistogramPanel#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "a8yj0tmvok",
-      "Integrity": "9hcgoKJx/q/CWg22YZhSxTmiFOeJ8jRuXEfo6kI7oo0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\HistogramPanel.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistoricalDataView.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/HistoricalDataView#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "whah0oogjk",
-      "Integrity": "nNCTS//05wLxjzKgO3YYatOMIMaKcNJi3sqZpm8k23A=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\HistoricalDataView.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\LoggerExtension.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/LoggerExtension#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "gb1edt26lb",
-      "Integrity": "1KDfrSTad26BQE6GdFSA5TUOoSQMzi7KWnQW1aT58gw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\LoggerExtension.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\SummaryPanel.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/SummaryPanel#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ptzzubuusy",
-      "Integrity": "Heqy40N4tWhqtpCNTZ8y354Oxu8Pq02PWQWS0vXI+2g=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\SummaryPanel.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureData.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/TemperatureData#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "br16ddt6xg",
-      "Integrity": "meDowSzhuquhDX0MdJpgrcYi2cLWrcNTUbkKauy65bY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\TemperatureData.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureExtension.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "extensions/TemperatureExtension#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xy7jnxc95f",
-      "Integrity": "GUqw68pBcPhIlUywCkeg/OOf23Cx+1mRnpA3raSXLh8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\extensions\\TemperatureExtension.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\index.html",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "index#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7q5yzvk598",
-      "Integrity": "gU8Ph43hKYSKogiCqR+kf+fSGLlBIK7irwNXV0jO3/g=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "main#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "1s3l3xx0r3",
-      "Integrity": "YR3TrEJGFFNUJbmJuCRAXCnoZ4Ea1aFt568zAmp0dSA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main.css"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "main#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3032ix4z9f",
-      "Integrity": "TQ4eOEZqX0D4Grl/lRfBcfBK0u9leGkmD7qCEVZUIpY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\sidebar.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "sidebar#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "b8rfant20k",
-      "Integrity": "m40xnKuJlNZ/lwzUtpCsjbeCG3/b5/iAug4Tt/+Qer0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sidebar.js"
-    },
-    {
-      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\viewer.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "viewer#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ko3yep5b46",
-      "Integrity": "JCkd1XHdLYJoGALWueGSuMQz9ZHiwjDEDzzb/RJ5cf4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\viewer.js"
-    }
-  ],
   "Endpoints": [
     {
       "Route": "extensions/BaseExtension.i7yq39ycrk.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\BaseExtension.js",
+      "AssetFile": "extensions/BaseExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -378,10 +30,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -390,23 +38,27 @@
           "Value": "i7yq39ycrk"
         },
         {
-          "Name": "label",
-          "Value": "extensions/BaseExtension.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-UgnqkBgZ6K6sOdSVsrbY50hLJ+IEhIOzuW1z+jT6aW0="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/BaseExtension.js"
         }
       ]
     },
     {
       "Route": "extensions/BaseExtension.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\BaseExtension.js",
+      "AssetFile": "extensions/BaseExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -423,10 +75,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -438,12 +86,16 @@
     },
     {
       "Route": "extensions/DataGridExtension.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\DataGridExtension.js",
+      "AssetFile": "extensions/DataGridExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -460,10 +112,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -475,12 +123,16 @@
     },
     {
       "Route": "extensions/DataGridExtension.rw3lpm6o52.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\DataGridExtension.js",
+      "AssetFile": "extensions/DataGridExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -497,10 +149,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -509,23 +157,27 @@
           "Value": "rw3lpm6o52"
         },
         {
-          "Name": "label",
-          "Value": "extensions/DataGridExtension.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-9cf4/JQyVaGVYxKgdDVlrQXnKOUO9huYZFJCnacWGoY="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/DataGridExtension.js"
         }
       ]
     },
     {
       "Route": "extensions/DataGridPanel.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\DataGridPanel.js",
+      "AssetFile": "extensions/DataGridPanel.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -542,10 +194,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -557,12 +205,16 @@
     },
     {
       "Route": "extensions/DataGridPanel.nvdo4nmetj.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\DataGridPanel.js",
+      "AssetFile": "extensions/DataGridPanel.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -579,10 +231,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -591,23 +239,27 @@
           "Value": "nvdo4nmetj"
         },
         {
-          "Name": "label",
-          "Value": "extensions/DataGridPanel.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-vYNXjpZbigzQ8i2nJxswspkryYyHC9urIJZru8E4YCk="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/DataGridPanel.js"
         }
       ]
     },
     {
       "Route": "extensions/GeorefExtension.b8sszu0jqa.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\GeorefExtension.js",
+      "AssetFile": "extensions/GeorefExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -624,10 +276,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -636,23 +284,27 @@
           "Value": "b8sszu0jqa"
         },
         {
-          "Name": "label",
-          "Value": "extensions/GeorefExtension.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-63iFgEa6LUh4q4Zcz1JCGxOz24k5pJKwtz0U/3Wk+Rg="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/GeorefExtension.js"
         }
       ]
     },
     {
       "Route": "extensions/GeorefExtension.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\GeorefExtension.js",
+      "AssetFile": "extensions/GeorefExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -669,10 +321,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -684,12 +332,16 @@
     },
     {
       "Route": "extensions/HistogramExtension.2jsgqf685c.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistogramExtension.js",
+      "AssetFile": "extensions/HistogramExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -706,10 +358,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -718,23 +366,27 @@
           "Value": "2jsgqf685c"
         },
         {
-          "Name": "label",
-          "Value": "extensions/HistogramExtension.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-krV4oy/6Mgnd5sw6UEG77Zi18Xi6X8EbhLRbtyv3EQA="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/HistogramExtension.js"
         }
       ]
     },
     {
       "Route": "extensions/HistogramExtension.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistogramExtension.js",
+      "AssetFile": "extensions/HistogramExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -751,10 +403,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -766,12 +414,16 @@
     },
     {
       "Route": "extensions/HistogramPanel.a8yj0tmvok.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistogramPanel.js",
+      "AssetFile": "extensions/HistogramPanel.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -788,10 +440,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -800,23 +448,27 @@
           "Value": "a8yj0tmvok"
         },
         {
-          "Name": "label",
-          "Value": "extensions/HistogramPanel.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-9hcgoKJx/q/CWg22YZhSxTmiFOeJ8jRuXEfo6kI7oo0="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/HistogramPanel.js"
         }
       ]
     },
     {
       "Route": "extensions/HistogramPanel.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistogramPanel.js",
+      "AssetFile": "extensions/HistogramPanel.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -833,10 +485,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -848,12 +496,16 @@
     },
     {
       "Route": "extensions/HistoricalDataView.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistoricalDataView.js",
+      "AssetFile": "extensions/HistoricalDataView.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -870,10 +522,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -885,12 +533,16 @@
     },
     {
       "Route": "extensions/HistoricalDataView.whah0oogjk.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\HistoricalDataView.js",
+      "AssetFile": "extensions/HistoricalDataView.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -907,10 +559,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -919,23 +567,27 @@
           "Value": "whah0oogjk"
         },
         {
-          "Name": "label",
-          "Value": "extensions/HistoricalDataView.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-nNCTS//05wLxjzKgO3YYatOMIMaKcNJi3sqZpm8k23A="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/HistoricalDataView.js"
         }
       ]
     },
     {
       "Route": "extensions/LoggerExtension.gb1edt26lb.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\LoggerExtension.js",
+      "AssetFile": "extensions/LoggerExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -952,10 +604,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -964,23 +612,27 @@
           "Value": "gb1edt26lb"
         },
         {
-          "Name": "label",
-          "Value": "extensions/LoggerExtension.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-1KDfrSTad26BQE6GdFSA5TUOoSQMzi7KWnQW1aT58gw="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/LoggerExtension.js"
         }
       ]
     },
     {
       "Route": "extensions/LoggerExtension.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\LoggerExtension.js",
+      "AssetFile": "extensions/LoggerExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -997,10 +649,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -1012,12 +660,16 @@
     },
     {
       "Route": "extensions/SummaryPanel.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\SummaryPanel.js",
+      "AssetFile": "extensions/SummaryPanel.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -1034,10 +686,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -1049,12 +697,16 @@
     },
     {
       "Route": "extensions/SummaryPanel.ptzzubuusy.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\SummaryPanel.js",
+      "AssetFile": "extensions/SummaryPanel.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1071,10 +723,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1083,23 +731,27 @@
           "Value": "ptzzubuusy"
         },
         {
-          "Name": "label",
-          "Value": "extensions/SummaryPanel.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-Heqy40N4tWhqtpCNTZ8y354Oxu8Pq02PWQWS0vXI+2g="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/SummaryPanel.js"
         }
       ]
     },
     {
       "Route": "extensions/TemperatureData.br16ddt6xg.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureData.js",
+      "AssetFile": "extensions/TemperatureData.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1116,10 +768,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1128,23 +776,27 @@
           "Value": "br16ddt6xg"
         },
         {
-          "Name": "label",
-          "Value": "extensions/TemperatureData.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-meDowSzhuquhDX0MdJpgrcYi2cLWrcNTUbkKauy65bY="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/TemperatureData.js"
         }
       ]
     },
     {
       "Route": "extensions/TemperatureData.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureData.js",
+      "AssetFile": "extensions/TemperatureData.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -1161,10 +813,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -1176,12 +824,16 @@
     },
     {
       "Route": "extensions/TemperatureExtension.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureExtension.js",
+      "AssetFile": "extensions/TemperatureExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -1198,10 +850,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -1213,12 +861,16 @@
     },
     {
       "Route": "extensions/TemperatureExtension.xy7jnxc95f.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\TemperatureExtension.js",
+      "AssetFile": "extensions/TemperatureExtension.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1235,10 +887,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1247,23 +895,27 @@
           "Value": "xy7jnxc95f"
         },
         {
-          "Name": "label",
-          "Value": "extensions/TemperatureExtension.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-GUqw68pBcPhIlUywCkeg/OOf23Cx+1mRnpA3raSXLh8="
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/TemperatureExtension.js"
         }
       ]
     },
     {
       "Route": "index.7q5yzvk598.html",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\index.html",
+      "AssetFile": "index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1280,10 +932,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 03:44:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1292,23 +940,27 @@
           "Value": "7q5yzvk598"
         },
         {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-gU8Ph43hKYSKogiCqR+kf+fSGLlBIK7irwNXV0jO3/g="
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\index.html",
+      "AssetFile": "index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -1325,10 +977,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 03:44:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -1340,12 +988,16 @@
     },
     {
       "Route": "main.1s3l3xx0r3.css",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
+      "AssetFile": "main.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1362,10 +1014,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 03:44:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1374,23 +1022,27 @@
           "Value": "1s3l3xx0r3"
         },
         {
-          "Name": "label",
-          "Value": "main.css"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-YR3TrEJGFFNUJbmJuCRAXCnoZ4Ea1aFt568zAmp0dSA="
+        },
+        {
+          "Name": "label",
+          "Value": "main.css"
         }
       ]
     },
     {
       "Route": "main.3032ix4z9f.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
+      "AssetFile": "main.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1407,10 +1059,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 03:44:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1419,23 +1067,27 @@
           "Value": "3032ix4z9f"
         },
         {
-          "Name": "label",
-          "Value": "main.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-TQ4eOEZqX0D4Grl/lRfBcfBK0u9leGkmD7qCEVZUIpY="
+        },
+        {
+          "Name": "label",
+          "Value": "main.js"
         }
       ]
     },
     {
       "Route": "main.css",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
+      "AssetFile": "main.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -1452,10 +1104,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 03:44:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -1467,12 +1115,16 @@
     },
     {
       "Route": "main.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
+      "AssetFile": "main.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -1489,10 +1141,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 03:44:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -1504,12 +1152,16 @@
     },
     {
       "Route": "sidebar.b8rfant20k.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\sidebar.js",
+      "AssetFile": "sidebar.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1526,10 +1178,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1538,23 +1186,27 @@
           "Value": "b8rfant20k"
         },
         {
-          "Name": "label",
-          "Value": "sidebar.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-m40xnKuJlNZ/lwzUtpCsjbeCG3/b5/iAug4Tt/+Qer0="
+        },
+        {
+          "Name": "label",
+          "Value": "sidebar.js"
         }
       ]
     },
     {
       "Route": "sidebar.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\sidebar.js",
+      "AssetFile": "sidebar.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -1571,10 +1223,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -1586,12 +1234,16 @@
     },
     {
       "Route": "viewer.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\viewer.js",
+      "AssetFile": "viewer.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -1608,10 +1260,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -1623,12 +1271,16 @@
     },
     {
       "Route": "viewer.ko3yep5b46.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\viewer.js",
+      "AssetFile": "viewer.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1645,10 +1297,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 02:15:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1657,12 +1305,12 @@
           "Value": "ko3yep5b46"
         },
         {
-          "Name": "label",
-          "Value": "viewer.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-JCkd1XHdLYJoGALWueGSuMQz9ZHiwjDEDzzb/RJ5cf4="
+        },
+        {
+          "Name": "label",
+          "Value": "viewer.js"
         }
       ]
     }
