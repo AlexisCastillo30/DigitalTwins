@@ -5,7 +5,7 @@
     font-family: ArtifaktElement;
 }
 
-#header, #sidebar, #preview {
+#header, #preview {
     position: absolute;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .toolbar-btn:hover {
-    background-color: #444444; /* Color más oscuro al pasar el ratón */
+    background-color: #008768; /* Color más oscuro al pasar el ratón */
 }
 
 #header {
@@ -109,40 +109,73 @@
     background-color: #252529;
     color: #c7c7cc;
 }
-
+/* Estilos para el sidebar */
 #sidebar {
-    width: 350px;
-    left: 220px; /* Alineamos el sidebar con el toolbar */
+    position: fixed;
     top: 3em;
     bottom: 0;
-    overflow-x: auto;
-    overflow-y: scroll;
+    width: 350px;
     background-color: #3b3b3f;
+    overflow-y:auto;
+    overflow-x:auto;
     color: #c7c7cc;
-    white-space: nowrap;    
+    /*opacity: 0.6;*/
+    white-space: nowrap;
+    z-index: 2000;
+    transition: width 0.3s ease, left 0.3s ease;
 }
 
+#sidebar * {
+    overflow: visible;
+    white-space: nowrap;
+}
+/* Estilos para el sidebar cuando el toolbar está contraído */
+#sidebar.expanded {
+    left: 220px; /* Cuando el toolbar está expandido */
+}
+
+/* Estilos para el sidebar cuando el toolbar está oculto */
+#sidebar.collapsed {
+    left: 75px; /* Cuando el toolbar está contraído */
+}
+
+/* Agregar estilo de ocultación */
 #sidebar.hidden {
-    transform: translateX(-100%); /* Oculta el sidebar al moverlo fuera de la pantalla */
+    width: 75px;
+    transition: left 0.3s ease;
+    /*transform: translateX(-30%);*/ /* Desplazar el sidebar fuera de la pantalla */
 }
 
+/* Estilo de transición suave cuando el toolbar se expande o contrae */
+#toolbar.hidden + #sidebar {
+    left: 75px; /* Posición del sidebar cuando el toolbar está contraído */
+    z-index: 1000;
+}
+
+/* Estilo compartido entre el botón de menú y el menú del sidebar */
 .menu-btn {
-    position:relative;
-    left: 11px;
     font-family: ArtifaktElement;
     font-size: 1.5em; /* Tamaño del ícono */
     background-color: transparent;
     color: #c7c7cc;
-    border:solid;
-    border-color:gray;
+    border: solid;
+    border-color: gray;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
+    position: relative;
+    left: 11px;
 }
-
+    
 .menu-btn i {
     color: #c7c7cc; /* Color del ícono */
     font-size: 1.5em; /* Tamaño del ícono */
+}
+
+
+/* Estilo cuando el botón está expandido */
+#toolbar:not(.hidden) .menu-btn {
+    margin-left: 0px; /* Ajuste cuando el toolbar está expandido */
 }
 
 
@@ -150,14 +183,9 @@
     top: 3em;
     right: 0;
     bottom: 0;
+    width: 97%; /* El viewer ocupa el 75% cuando el sidebar está visible */
     transition: width 0.3s ease; /* Transición para el ancho y desplazamiento del preview */
-    width: 80%; /* El viewer ocupa el 75% cuando el sidebar está visible */
 }
-
-/*#preview.expanded {
-    width:90%;*/ /* El viewer ocupa todo el ancho cuando el sidebar está oculto */
-    /*left: 200px;*/ /* El viewer se mueve a la izquierda */
-/*}*/
 
 @media (max-width: 768px) {
     #sidebar {
@@ -183,17 +211,10 @@
     margin-top: 10px;
 }
 
-/*#preview {
-    width: 75%;
-    right: 0;
-    top: 3em;
-    bottom: 0;
-}*/
-
 #preview .overlay-text {
     position: absolute;
     top: 05px;
-    left: 10px;
+    left: 110px;
     text-align: left;
     z-index: 1000;
     pointer-events: none;
@@ -259,11 +280,15 @@
     margin-left: 0.3em;
 }
 
-
-
 #tree {
     margin: 0.5em;
 }
+
+/* Estilo para ocultar el árbol */
+#tree.hidden {
+    display: none;
+}
+
 
 @media (max-width: 768px) {
     #sidebar {

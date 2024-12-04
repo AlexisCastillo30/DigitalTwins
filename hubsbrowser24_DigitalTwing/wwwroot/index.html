@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div id="toolbar">
+    <div id="toolbar" class="hidden">
         <button id="menu-btn" class="menu-btn">
             <i class="fas fa-bars"></i> <!-- Ícono de menú -->
         </button>
@@ -30,7 +30,6 @@
             <i class="fas fa-cogs"></i> <!-- Ícono de Gemelos Digitales -->
             <span class="btn-text">Digital Twins</span> <!-- Texto cuando el toolbar está expandido -->
         </button>
-
     </div>
 
     <div id="header">
@@ -40,7 +39,10 @@
         </span>
         <button id="login" style="visibility: hidden;">Login</button>
     </div>
-    <div id="sidebar">
+    <div id="sidebar" class="collapsed">
+        <button id="menu-sidebar-btn" class="menu-btn">
+            <i class="fas fa-bars"></i> <!-- Ícono de menú -->
+        </button>
         <div id="tree"></div>
     </div>
     <div id="preview">

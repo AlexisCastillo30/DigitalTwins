@@ -28,21 +28,44 @@ try {
     alert('Could not initialize the application. See console for more details.');
     console.error(err);
 }
-//document.getElementById('toggleSidebar').addEventListener('click', function () {
-//    var sidebar = document.getElementById('sidebar');
-//    var preview = document.getElementById('preview');
-//    var toolbar = document.getElementById('toolbar');
+// Seleccionamos los elementos
+const menuBtn = document.getElementById('menu-btn');
+const toolbar = document.getElementById('toolbar');
+const sidebar = document.getElementById('sidebar');
+const tree = document.getElementById('tree');
 
-//    sidebar.classList.toggle('hidden'); // Alterna la visibilidad del sidebar
-//    preview.classList.toggle('expanded'); // Expande el viewer
-//});
-document.getElementById('menu-btn').addEventListener('click', function () {
-    var toolbar = document.getElementById('toolbar');
-    toolbar.classList.toggle('hidden'); /* Alterna la visibilidad del toolbar */
+// Alternar el estado del toolbar (expandido/contraído)
+menuBtn.addEventListener('click', function () {
+    // Alternamos la clase 'hidden' del toolbar
+    toolbar.classList.toggle('hidden');
 
-    var preview = document.getElementById('preview');
-    preview.classList.toggle('expanded'); /* Expande el área de vista previa */
+    // Comprobamos si el toolbar está contraído o expandido
+    if (toolbar.classList.contains('hidden')) {
+        // Si el toolbar está contraído, actualizamos el sidebar
+        sidebar.classList.remove('expanded');
+        sidebar.classList.add('collapsed');
+    } else {
+        // Si el toolbar está expandido, actualizamos el sidebar
+        sidebar.classList.remove('collapsed');
+        sidebar.classList.add('expanded');
+    }
 });
+
+// Alternar el estado del sidebar (ocultar/mostrar)
+document.getElementById('menu-sidebar-btn').addEventListener('click', function () {
+    // Alternar la visibilidad del sidebar
+    sidebar.classList.toggle('hidden');
+
+    // También ocultar el árbol cuando el sidebar se oculte
+    if (sidebar.classList.contains('hidden')) {
+        tree.style.display = 'none'; // Oculta el árbol
+    } else {
+        tree.style.display = 'block'; // Muestra el árbol
+    }
+});
+
+
+
 
 
 
