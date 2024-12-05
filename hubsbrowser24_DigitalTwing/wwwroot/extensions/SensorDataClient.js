@@ -1,34 +1,63 @@
 ﻿export class SensorDataClient {
-    static data = [];
+    static data = []; // Almacena todos los datos de los sensores
 
-    static getSensorData() {
-        return { data: this.data };
+    // Obtener los datos de sensores según un canal específico (temperatura, CO2, humedad)
+    static getSensorData(channel) {
+        if (!channel) {
+            console.warn("Canal no especificado. Retornando todos los datos.");
+            return this.data;
+        }
+
+        return this.data.map(sensor => ({
+            id: sensor.dbId,
+            value: sensor.data[channel] || null // Si el canal no existe, retorna null
+        }));
     }
 
+    // Actualizar o agregar datos de sensores
     static update(sensorData) {
+        if (!sensorData || !sensorData.dbId) {
+            console.error("Datos de sensor inválidos:", sensorData);
+            return;
+        }
+
         const dbId = sensorData.dbId;
-        const temperature = sensorData.data.temperature;
-        const co2 = sensorData.data.co2;
-        const humidity = sensorData.data.humidity;
+        const temperature = sensorData.data?.temperature ?? null;
+        const co2 = sensorData.data?.co2 ?? null;
+        const humidity = sensorData.data?.humidity ?? null;
 
         // Buscar si ya existe un dato para este dbId
-        const existingIndex = this.data.findIndex(item => item.dbId === dbId);
-        if (existingIndex !== -1) {
+        const existingSensor = this.data.find(sensor => sensor.dbId === dbId);
+
+        if (existingSensor) {
             // Actualizar los datos existentes
-            this.data[existingIndex] = {
-                dbId: dbId,
-                temperature: temperature,
-                co2: co2,
-                humidity: humidity
-            };
-        } else {
-            // Agregar nuevos datos
-            this.data.push({
-                dbId: dbId,
+            Object.assign(existingSensor.data, {
                 temperature: temperature,
                 co2: co2,
                 humidity: humidity
             });
+            console.log(`Datos actualizados para dbId: ${dbId}`, existingSensor);
+        } else {
+            // Agregar nuevos datos
+            this.data.push({
+                dbId: dbId,
+                data: {
+                    temperature: temperature,
+                    co2: co2,
+                    humidity: humidity
+                }
+            });
+            console.log(`Nuevo sensor agregado: dbId: ${dbId}`, this.data);
         }
+    }
+
+    // Obtener los datos más recientes almacenados
+    static getLatestData() {
+        return this.data;
+    }
+
+    // Depurar los datos almacenados
+    static logData() {
+        console.log("Datos almacenados en SensorDataClient:", this.data);
     }
 }

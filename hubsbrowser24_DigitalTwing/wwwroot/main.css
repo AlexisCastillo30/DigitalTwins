@@ -163,119 +163,118 @@
 
 
 
-
-
-
-
-.temperature-marker {
-    background-color: white;
-    color: blue;
-    padding: 5px;
-    border-radius: 4px;
-    font-size: 14px;
-    text-align: center;
-    pointer-events: auto;
-}
-
-label.markup {
-    position: absolute;
-    white-space: nowrap;
-    cursor: pointer;
-}
-
-label.update {
-    z-index: 1;
-}
-
-.temperatureBorder {
-    background-color: rgba(256, 256, 256, 0.6);
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 5px;
+#heatmaps-panel {
+    background-color: #333;
+    color: #eee;
+    font-family: Arial, sans-serif;
 }
 
 
 
-
-.temperatureHigh {
-    font-size: 14px;
-    color: red;
-}
-
-.temperatureYellow {
-    font-size: 14px;
-    color: orange;
-}
-
-.temperatureOk {
-    font-size: 14px;
-    color: green;
-}
-
-.temperatureBlue {
-    font-size: 14px;
-    color: blue;
-}
-
-.temperatureLow {
-    font-size: 14px;
-    color: darkblue;
-}
-
-.co2High {
-    font-size: 14px;
-    color: red;
-}
-
-.co2Medium {
-    font-size: 14px;
-    color: orange;
-}
-
-.co2Low {
-    font-size: 14px;
-    color: green;
-}
-
-.humidityHigh {
-    font-size: 14px;
-    color: blue;
-}
-
-.humidityOk {
-    font-size: 14px;
-    color: green;
-}
-
-.humidityLow {
-    font-size: 14px;
-    color: brown;
-}
-
-.maintenance {
-    font-size: 14px;
-    color: gray;
-}
-
-.sensorValue {
-    font-size: 14px;
-    color: black;
-}
-
-
-
-
+/* Contenedor principal de los markups */
 .sensorMarkup {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid black;
-    border-radius: 6px;
-    padding: 5px;
+    border-radius: 8px;
+    padding: 8px;
     position: absolute;
     pointer-events: auto;
     z-index: 10;
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+    gap: 10px; /* Espacio entre los bloques */
 }
 
-.sensorMarkup div {
-    margin-bottom: 2px;
+.sensorTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/*los deja ne paralelo A|B|C*/
+.sensorSectionContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre los elementos */
+    align-items: center;
+}
+
+
+/*Agerga lineas*/
+.sensorSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-right: 1px solid #ccc;
+}
+/*Quita la ultima*/
+.sensorSection:last-child {
+    border-right: none;
+}
+
+
+
+/*Sensores estilos*/
+/* Estilo del título de cada sensor */
+.sensorSection .title {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Estilo del valor del sensor */
+.sensorSection .value {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+
+
+/* Colores dinámicos (basados en la lógica de getClassForValue) */
+.temperatureHigh {
+    color: red;
+}
+
+.temperatureYellow {
+    color: orange;
+}
+
+.temperatureGreen {
+    color: green;
+}
+
+.temperatureCyan {
+    color: cyan;
+}
+
+.temperatureBlueDark {
+    color: navy;
+}
+
+.co2High {
+    color: red;
+}
+
+.co2Medium {
+    color: orange;
+}
+
+.co2Low {
+    color: green;
+}
+
+.humidityHigh {
+    color: blue;
+}
+
+.humidityOk {
+    color: green;
+}
+
+.humidityLow {
+    color: gray;
 }
