@@ -30,12 +30,24 @@ namespace hubsbrowser24.Controllers
             return Ok(data);
         }
 
+
+
+
         [HttpPost]
         public async Task<IActionResult> InsertSensorData([FromBody] SensorDataModel sensorData)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
+            }
+
+            // Validar que los datos esenciales estén presentes
+            if (sensorData.data == null ||
+                double.IsNaN(sensorData.data.temperature) ||
+                double.IsNaN(sensorData.data.co2) ||
+                double.IsNaN(sensorData.data.humidity))
+            {
+                return BadRequest("Faltan datos esenciales en el payload.");
             }
 
             // Convertir el modelo a BsonDocument
@@ -48,5 +60,6 @@ namespace hubsbrowser24.Controllers
 
             return Ok();
         }
+
     }
 }

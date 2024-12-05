@@ -358,36 +358,86 @@ label.update {
 
 
 
+
 .temperatureHigh {
-    font-size: 18px;
+    font-size: 14px;
     color: red;
 }
 
 .temperatureYellow {
-    font-size: 18px;
+    font-size: 14px;
     color: orange;
 }
 
-
 .temperatureOk {
-    font-size: 17px;
+    font-size: 14px;
     color: green;
 }
 
 .temperatureBlue {
-    font-size: 18px;
-    color: cyan;
-}
-
-
-
-.temperatureLow {
-    font-size: 18px;
+    font-size: 14px;
     color: blue;
 }
 
+.temperatureLow {
+    font-size: 14px;
+    color: darkblue;
+}
+
+.co2High {
+    font-size: 14px;
+    color: red;
+}
+
+.co2Medium {
+    font-size: 14px;
+    color: orange;
+}
+
+.co2Low {
+    font-size: 14px;
+    color: green;
+}
+
+.humidityHigh {
+    font-size: 14px;
+    color: blue;
+}
+
+.humidityOk {
+    font-size: 14px;
+    color: green;
+}
+
+.humidityLow {
+    font-size: 14px;
+    color: brown;
+}
 
 .maintenance {
-    font-size: 20px;
+    font-size: 14px;
     color: gray;
+}
+
+.sensorValue {
+    font-size: 14px;
+    color: black;
+}
+
+
+
+
+.sensorMarkup {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    pointer-events: auto;
+    z-index: 10;
+    text-align: center;
+}
+
+.sensorMarkup div {
+    margin-bottom: 2px;
 }
