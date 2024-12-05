@@ -26,11 +26,19 @@ class SensorDataExtension extends BaseExtension {
         this.connection.on("ReceiveSensorData", (sensorData) => {
             console.log('Datos de sensor recibidos:', sensorData);
 
-            // Actualizar los datos de temperatura
+            // Verificar si los valores están llegando correctamente
+            if (!sensorData || !sensorData.dbId || !sensorData.data) {
+                console.warn('Datos de sensor incompletos:', sensorData);
+                return;
+            }
+
+            // Actualizar los datos de temperatura en el cliente
             SensorDataClient.update(sensorData);
 
-            // Actualizar los marcadores inmediatamente
-            this.updateMarkup(sensorData.dbId);
+            // Actualizar los markups sólo si el botón está activo
+            if (this._enabled) {
+                this.updateMarkup(sensorData.dbId); // Asegurarse de usar dbId y los datos correctos
+            }
         });
 
         await this.connection.start();
@@ -106,47 +114,46 @@ class SensorDataExtension extends BaseExtension {
         // Crear el botón en la barra de herramientas
         this._button = this.createDigitalTwinsToolbarButton(
             'SensorData-button',
-            'https://img.icons8.com/small/32/temperature.png',             
+            'https://img.icons8.com/small/32/temperature.png',
             'Sensor Data'
         );
 
-        // Lógica al hacer clic en el botón
         this._button.onClick = () => {
             this._enabled = !this._enabled; // Alterna el estado
             if (this._enabled) {
+                // Mostrar los markups al activar
                 this.showMarkups(true);
                 this.viewer.addEventListener(Autodesk.Viewing.CAMERA_CHANGE_EVENT, this.updateMarkups.bind(this));
             } else {
+                // Ocultar los markups al desactivar
                 this.showMarkups(false);
                 this.viewer.removeEventListener(Autodesk.Viewing.CAMERA_CHANGE_EVENT, this.updateMarkups.bind(this));
             }
         };
     }
-
     showMarkups(show) {
-        // Limpia los labels previos
         this.clearLabels();
 
         if (!show) return;
 
-        const sensorDataArray = SensorDataClient.getSensorData().data;
-        const instanceTree = this.viewer.model.getInstanceTree();
+        // Obtener los datos más recientes almacenados
+        const sensorDataArray = SensorDataClient.getLatestData();
 
-        if (!instanceTree) {
-            console.error('El árbol de instancias no está disponible.');
+        if (!sensorDataArray || sensorDataArray.length === 0) {
+            console.warn("No hay datos de sensores disponibles.");
             return;
         }
 
-        // Crear los markups para cada dbId
-        sensorDataArray.forEach((sensorData) => {
-            const dbId = sensorData.dbId;
-            this.createMarkup(dbId, sensorData);
+        // Crear markups para cada dbId
+        sensorDataArray.forEach(sensorData => {
+            this.createMarkup(sensorData.dbId, sensorData.data);
         });
 
-        // Actualizar las posiciones iniciales
+        // Actualizar posiciones iniciales
         this.updateMarkups();
-        console.log('Sensor data markups applied');
+        console.log("Markups de datos de sensores aplicados.");
     }
+
 
 
     createMarkup(dbId, sensorData) {
@@ -163,22 +170,23 @@ class SensorDataExtension extends BaseExtension {
         label.className = 'sensorMarkup';
 
         // Construir el contenido del label con los tres valores
-        const temperatureText = `Temperature: ${sensorData.temperature}°C`;
-        const co2Text = `Co2: ${sensorData.co2} ppm`;
-        const humidityText = `humidity: ${sensorData.humidity}%`;
-
         label.innerHTML = `
-        <div class="${this.getClassForValue('temperature', sensorData.temperature)}">
-            ${temperatureText}
-        </div>
-        <div class="${this.getClassForValue('co2', sensorData.co2)}">
-            ${co2Text}
-        </div>
-        <div class="${this.getClassForValue('humidity', sensorData.humidity)}">
-            ${humidityText}
-        </div>
-    `;
-
+            <div class="sensorTitle">Sensor Data</div>
+                <div class="sensorSectionContainer">
+                    <div class="sensorSection">
+                        <div class="title">Temperature</div>
+                        <div class="value ${this.getClassForValue('temperature', sensorData.temperature)}">${sensorData.temperature}°C</div>
+                    </div>
+                    <div class="sensorSection">
+                        <div class="title">CO2</div>
+                        <div class="value ${this.getClassForValue('co2', sensorData.co2)}">${sensorData.co2} ppm</div>
+                    </div>
+                    <div class="sensorSection">
+                        <div class="title">Humidity</div>
+                        <div class="value ${this.getClassForValue('humidity', sensorData.humidity)}">${sensorData.humidity}%</div>
+                    </div>
+                </div>
+        `;
         label.style.position = 'absolute';
         label.style.pointerEvents = 'auto';
         label.style.zIndex = '10';
@@ -192,7 +200,16 @@ class SensorDataExtension extends BaseExtension {
     }
 
 
+
+    
+
+    
+
+
+
     updateMarkup(dbId) {
+        if (!this._enabled) return; // No actualizar si el botón está desactivado
+
         const sensorData = SensorDataClient.data.find(item => item.dbId === dbId);
         if (!sensorData) return;
 
@@ -201,32 +218,33 @@ class SensorDataExtension extends BaseExtension {
         if (existingLabelInfo) {
             const label = existingLabelInfo.label;
 
-            // Actualizar el contenido del label
-            const temperatureText = `Temperature: ${sensorData.temperature}°C`;
-            const co2Text = `Co2: ${sensorData.co2} ppm`;
-            const humidityText = `humidity: ${sensorData.humidity}%`;
-
+            // Actualizar las clases y contenido de los valores
             label.innerHTML = `
-            <div class="${this.getClassForValue('temperature', sensorData.temperature)}">
-                ${temperatureText}
+            <div class="sensorTitle">Sensor Data</div>
+            <div class="sensorSectionContainer">
+            <div class="sensorSection">
+                <div class="title">Temperature</div>
+                <div class="value ${this.getClassForValue('temperature', sensorData.data.temperature)}">${sensorData.data.temperature}°C</div>
             </div>
-            <div class="${this.getClassForValue('co2', sensorData.co2)}">
-                ${co2Text}
+            <div class="sensorSection">
+                <div class="title">CO2</div>
+                <div class="value ${this.getClassForValue('co2', sensorData.data.co2)}">${sensorData.data.co2} ppm</div>
             </div>
-            <div class="${this.getClassForValue('humidity', sensorData.humidity)}">
-                ${humidityText}
+            <div class="sensorSection">
+                <div class="title">Humidity</div>
+                <div class="value ${this.getClassForValue('humidity', sensorData.data.humidity)}">${sensorData.data.humidity}%</div>
+            </div>
             </div>
         `;
+
+            console.log(`Markup actualizado para dbId: ${dbId}`);
         } else {
-            // Crear un nuevo label
-            this.createMarkup(dbId, sensorData);
-            // Actualizar posiciones
-            this.updateMarkups();
+            // Crear un nuevo label si no existe
+            this.createMarkup(dbId, sensorData.data);
+            this.updateMarkups(); // Actualizar posiciones
         }
     }
 
-
-    
     
 
     getModifiedWorldBoundingBox(dbId) {
@@ -265,6 +283,7 @@ class SensorDataExtension extends BaseExtension {
     }
 
 
+
     clearLabels() {
         // Eliminar todos los labels creados
         this._labels.forEach(({ label }) => {
@@ -282,25 +301,43 @@ class SensorDataExtension extends BaseExtension {
 
         value = parseFloat(value);
 
-        switch (type) {
-            case 'temperature':
-                if (value >= 30) return 'temperatureHigh';
-                if (value >= 27) return 'temperatureYellow';
-                if (value >= 20) return 'temperatureOk';
-                if (value >= 15) return 'temperatureBlue';
-                return 'temperatureLow';
-            case 'co2':
-                if (value >= 1000) return 'co2High';
-                if (value >= 800) return 'co2Medium';
-                return 'co2Low';
-            case 'humidity':
-                if (value >= 70) return 'humidityHigh';
-                if (value >= 30) return 'humidityOk';
-                return 'humidityLow';
-            default:
-                return 'sensorValue';
+        const classesByType = {
+            temperature: [
+                { max: Infinity, min: 30, className: 'temperatureHigh' },      // Rojo
+                { max: 30, min: 27, className: 'temperatureYellow' },          // Amarillo
+                { max: 27, min: 20, className: 'temperatureGreen' },           // Verde
+                { max: 20, min: 15, className: 'temperatureCyan' },            // Cyan
+                { max: 15, min: -Infinity, className: 'temperatureBlueDark' }  // Azul oscuro
+            ],
+            co2: [
+                { max: Infinity, min: 1000, className: 'co2High' },
+                { max: 1000, min: 800, className: 'co2Medium' },
+                { max: 800, min: -Infinity, className: 'co2Low' }
+            ],
+            humidity: [
+                { max: Infinity, min: 70, className: 'humidityHigh' },
+                { max: 70, min: 30, className: 'humidityOk' },
+                { max: 30, min: -Infinity, className: 'humidityLow' }
+            ]
+        };
+
+        // Si el tipo no está definido, usa una clase por defecto
+        if (!classesByType[type]) {
+            return 'sensorValue';
         }
+
+        // Buscar la clase correspondiente al rango
+        const ranges = classesByType[type];
+        for (const range of ranges) {
+            if (value >= range.min && value < range.max) {
+                return range.className;
+            }
+        }
+
+        // Clase por defecto si no encaja en ningún rango
+        return 'sensorValue';
     }
+
 
 
     getLabelTextForType(sensorData, type) {

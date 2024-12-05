@@ -5,6 +5,7 @@ import './extensions/DataGridExtension.js';
 import './extensions/GeorefExtension.js';
 
 import './extensions/SensorDataExtension.js';
+
 import './extensions/SensorDetailExtension.js';
 import './extensions/SensorHeatmapsExtension.js';
 import './extensions/SensorListExtension.js';
