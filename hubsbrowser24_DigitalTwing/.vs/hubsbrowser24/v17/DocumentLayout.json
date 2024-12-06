@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\sensordataextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\sensordataextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\controllers\\hubscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:controllers\\hubscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +34,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 496,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HubsController.cs",
+              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\Controllers\\HubsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HubsController.cs",
+              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\Controllers\\HubsController.cs",
+              "RelativeToolTip": "Controllers\\HubsController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T22:20:01.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "viewer.js",
+              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\viewer.js",
+              "RelativeDocumentMoniker": "wwwroot\\viewer.js",
+              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\viewer.js",
+              "RelativeToolTip": "wwwroot\\viewer.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-06T22:02:13.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-06T22:02:07.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\main.js",
+              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
+              "RelativeToolTip": "wwwroot\\main.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-06T22:01:43.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
+              "RelativeDocumentMoniker": "wwwroot\\main.css",
+              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
+              "RelativeToolTip": "wwwroot\\main.css",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAAAMMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-06T21:31:26.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +113,7 @@
               "RelativeDocumentMoniker": "wwwroot\\extensions\\SensorDataExtension.js",
               "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\SensorDataExtension.js",
               "RelativeToolTip": "wwwroot\\extensions\\SensorDataExtension.js",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAswJgAAAAAAAAA",
+              "ViewState": "AQIAAAMBAAAAAAAAAAAqwBYBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-12-06T14:30:29.272Z",
               "EditorCaption": ""
