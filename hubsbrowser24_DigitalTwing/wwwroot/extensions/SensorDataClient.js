@@ -14,6 +14,20 @@
         }));
     }
 
+    // Obtener datos históricos del sensor
+    static getSensorData(sensorId) {
+        const sensor = this.data.find(item => item.dbId === sensorId);
+        if (!sensor) {
+            console.warn(`No se encontraron datos históricos para el sensor con ID: ${sensorId}`);
+            return [];
+        }
+
+        return sensor.historicalData || []; // Devuelve datos históricos si existen
+    }
+
+
+
+
     // Actualizar o agregar datos de sensores
     static update(sensorData) {
         if (!sensorData || !sensorData.dbId) {

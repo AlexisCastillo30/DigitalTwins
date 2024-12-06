@@ -163,11 +163,35 @@
 
 
 
-#heatmaps-panel {
-    background-color: #333;
-    color: #eee;
+
+
+
+
+
+
+
+
+
+.docking-panel {
+    border-radius: 8px !important;
+    background-color: #2b2b2b !important;
+    color: #eee !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
     font-family: Arial, sans-serif;
 }
+
+    .docking-panel select {
+        border-radius: 4px;
+        border: 1px solid #444;
+        background-color: #3b3b3b;
+        color: #fff;
+        padding: 5px;
+    }
+
+
+
+
+
 
 
 

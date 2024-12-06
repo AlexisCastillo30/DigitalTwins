@@ -1,7 +1,5 @@
 ﻿import { BaseExtension } from './BaseExtension.js';
 
-
-
 class SensorDetailExtension extends BaseExtension {
     constructor(viewer, options) {
         super(viewer, options);
@@ -22,7 +20,7 @@ class SensorDetailExtension extends BaseExtension {
             this._button = null;
         }
         console.log('SensorDetailExtension unloaded');
-        return true;        
+        return true;
     }
     onToolbarCreated() {
         this._button = this.createDigitalTwinsToolbarButton('SensorDetail-button', 'https://img.icons8.com/android/32/electrical-sensor.png', 'SensorDetail');
