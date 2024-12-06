@@ -236,7 +236,6 @@ class SensorDataExtension extends BaseExtension {
             </div>
             </div>
         `;
-
             console.log(`Markup actualizado para dbId: ${dbId}`);
         } else {
             // Crear un nuevo label si no existe
