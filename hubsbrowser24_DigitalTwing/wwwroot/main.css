@@ -161,6 +161,24 @@
     background-size: cover;
 }
 
+/* Estado normal del botón */
+#SensorData-button {
+    /*background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);*/
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+/* Estado presionado (hundido) */
+#SensorData-button.button-pressed {
+    background-color: #99c3f0a1;
+    color: white;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.2); /* Efecto "hundido" */
+    border: 1px solid #0056b3a6;
+    transform: translateY(2px); /* Leve desplazamiento */
+}
 
 
 
@@ -180,16 +198,25 @@
     font-family: Arial, sans-serif;
 }
 
-    .docking-panel select {
-        border-radius: 4px;
-        border: 1px solid #444;
-        background-color: #3b3b3b;
-        color: #fff;
-        padding: 5px;
-    }
+.docking-panel select {
+    border-radius: 4px;
+    border: 1px solid #444;
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 5px;
+}
 
 
 
+
+.sensorSphere {
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.sensorSphere:hover {
+    transform: scale(1.2);
+}
 
 
 

@@ -5,74 +5,78 @@ class SensorDataExtension extends BaseExtension {
     constructor(viewer, options) {
         super(viewer, options);
         this._button = null;
-        this._enabled = false; // Controla si los markups están activos
-        this._overlayName = 'sensor-data-markups'; // Nombre para los overlays
+        this._enabled = false;
         this._frags = {}; // Fragmentos asociados a los dbId
-        this._labels = []; // Almacena referencias a los labels creados
+        this._labels = []; // Almacena los Markups creados
+        this._pushpins = []; // Almacena los Pushpins creados
+        this._activeSensors = new Set(); // Almacena los dbIds de sensores activados
     }
-
     async load() {
         super.load();
 
-        // Escuchar el evento de carga completa del modelo
-        this.onModelLoaded = this.onModelLoaded.bind(this);
-        this.viewer.addEventListener(Autodesk.Viewing.GEOMETRY_LOADED_EVENT, this.onModelLoaded);
+        // Escuchar evento de carga completa del modelo
+        this.viewer.addEventListener(Autodesk.Viewing.GEOMETRY_LOADED_EVENT, this.onModelLoaded.bind(this));
 
         // Conectar a SignalR
         this.connection = new signalR.HubConnectionBuilder()
             .withUrl("/sensorHub")
             .build();
 
+        // Escuchar nuevas señales y actualizar Markups
         this.connection.on("ReceiveSensorData", (sensorData) => {
             console.log('Datos de sensor recibidos:', sensorData);
 
-            // Verificar si los valores están llegando correctamente
             if (!sensorData || !sensorData.dbId || !sensorData.data) {
                 console.warn('Datos de sensor incompletos:', sensorData);
                 return;
             }
 
-            // Actualizar los datos de temperatura en el cliente
+            // Actualizar datos en el cliente (siempre)
             SensorDataClient.update(sensorData);
 
-            // Actualizar los markups sólo si el botón está activo
+            // Actualizar contenido del Markup sin alterar visibilidad
+            this.updateMarkup(sensorData.dbId, sensorData.data);
+
+            // Crear o actualizar Pushpins solo si el botón está activado
             if (this._enabled) {
-                this.updateMarkup(sensorData.dbId); // Asegurarse de usar dbId y los datos correctos
+                const existingPushpin = this._pushpins.find(pin => pin.dbId === sensorData.dbId);
+                if (!existingPushpin) {
+                    this.createPushpin(sensorData.dbId, sensorData.data);
+                } else {
+                    this.updatePushpinPosition(existingPushpin.pushpin);
+                }
             }
         });
-
+        
         await this.connection.start();
 
         console.log('SensorDataExtension loaded');
         return true;
     }
 
+
     unload() {
         super.unload();
 
-        // Desconectar de SignalR
         if (this.connection) {
             this.connection.stop();
         }
 
-        // Limpia los markups y eventos
         this.clearLabels();
-        this.viewer.removeEventListener(Autodesk.Viewing.CAMERA_CHANGE_EVENT, this.updateMarkups.bind(this));
+        this.clearPushpins();
+        this.viewer.removeEventListener(Autodesk.Viewing.CAMERA_CHANGE_EVENT, this.updatePositions.bind(this));
 
         if (this._button) {
             this.removeToolbarButton(this._button);
             this._button = null;
         }
 
-        console.log('TemperatureExtension unloaded');
+        console.log('SensorDataExtension unloaded');
         return true;
     }
 
     onModelLoaded() {
-        // Remover el listener para evitar llamadas múltiples
         this.viewer.removeEventListener(Autodesk.Viewing.GEOMETRY_LOADED_EVENT, this.onModelLoaded);
-
-        // Construir el mapeo de dbId a fragmentos
         this.buildFragmentMapping();
     }
 
@@ -84,7 +88,7 @@ class SensorDataExtension extends BaseExtension {
             return;
         }
 
-        this._frags = {}; // Reiniciar el mapeo
+        this._frags = {};
 
         const _this = this;
 
@@ -104,56 +108,146 @@ class SensorDataExtension extends BaseExtension {
         }
 
         traverseTree(instanceTree.getRootId());
-
-        // Agrega este log
         console.log('Mapeo de fragmentos:', this._frags);
     }
 
-
     onToolbarCreated() {
-        // Crear el botón en la barra de herramientas
         this._button = this.createDigitalTwinsToolbarButton(
             'SensorData-button',
             'https://img.icons8.com/small/32/temperature.png',
             'Sensor Data'
         );
 
+        // Actualizar el estado visual del botón al cargar
+        this.updateButtonState();
+
         this._button.onClick = () => {
-            this._enabled = !this._enabled; // Alterna el estado
+            this._enabled = !this._enabled;
+
             if (this._enabled) {
-                // Mostrar los markups al activar
-                this.showMarkups(true);
-                this.viewer.addEventListener(Autodesk.Viewing.CAMERA_CHANGE_EVENT, this.updateMarkups.bind(this));
+                this.showPushpins(true);
+                this.viewer.addEventListener(Autodesk.Viewing.CAMERA_CHANGE_EVENT, this.updatePositions.bind(this));
             } else {
-                // Ocultar los markups al desactivar
-                this.showMarkups(false);
-                this.viewer.removeEventListener(Autodesk.Viewing.CAMERA_CHANGE_EVENT, this.updateMarkups.bind(this));
+                this.clearPushpins();
+                this.clearLabels();
+                this.viewer.removeEventListener(Autodesk.Viewing.CAMERA_CHANGE_EVENT, this.updatePositions.bind(this));
             }
+
+            // Actualizar el estado visual del botón tras el clic
+            this.updateButtonState();
         };
     }
-    showMarkups(show) {
-        this.clearLabels();
 
-        if (!show) return;
+    // Nueva función para actualizar el estado visual del botón
+    updateButtonState() {
+        if (this._button) {
+            const buttonElement = this._button.container;
 
-        // Obtener los datos más recientes almacenados
-        const sensorDataArray = SensorDataClient.getLatestData();
+            if (this._enabled) {
+                buttonElement.classList.add('button-pressed'); // Agregar clase "hundido"
+            } else {
+                buttonElement.classList.remove('button-pressed'); // Quitar clase
+            }
+        }
+    }
 
-        if (!sensorDataArray || sensorDataArray.length === 0) {
-            console.warn("No hay datos de sensores disponibles.");
+
+
+
+
+    showPushpins(show) {
+        if (show) {
+            const sensorDataArray = SensorDataClient.getLatestData();
+
+            if (!sensorDataArray || sensorDataArray.length === 0) {
+                console.warn("No hay datos de sensores disponibles.");
+                return;
+            }
+
+            sensorDataArray.forEach(sensorData => {
+                const existingPushpin = this._pushpins.find(pin => pin.dbId === sensorData.dbId);
+                if (!existingPushpin) {
+                    this.createPushpin(sensorData.dbId, sensorData.data);
+                } else {
+                    // Asegurarnos de que el evento de clic esté listo
+                    existingPushpin.pushpin.addEventListener('click', () => {
+                        if (this._activeSensors.has(sensorData.dbId)) {
+                            this._activeSensors.delete(sensorData.dbId);
+                            this.hideMarkup(sensorData.dbId);
+                            existingPushpin.pushpin.style.backgroundColor = 'rgba(0, 123, 255, 0.3)';
+                        } else {
+                            this._activeSensors.add(sensorData.dbId);
+                            this.showMarkup(sensorData.dbId, sensorData.data);
+                            existingPushpin.pushpin.style.backgroundColor = 'rgba(255, 0, 0, 0.5)';
+                        }
+                    });
+                }
+            });
+
+            this.updatePositions();
+        } else {
+            this.clearPushpins();
+        }
+    }
+
+
+
+
+    createPushpin(dbId, sensorData) {
+        const bbox = this.getModifiedWorldBoundingBox(dbId);
+        if (!bbox || bbox.isEmpty()) {
+            console.warn(`No se pudo obtener el boundingBox para dbId: ${dbId}`);
             return;
         }
 
-        // Crear markups para cada dbId
-        sensorDataArray.forEach(sensorData => {
-            this.createMarkup(sensorData.dbId, sensorData.data);
+        const position = bbox.getCenter(new THREE.Vector3());
+
+        const pushpin = document.createElement('div');
+        pushpin.className = 'sensorSphere';
+        pushpin.style.position = 'absolute';
+        pushpin.style.pointerEvents = 'auto';
+        pushpin.style.zIndex = '10';
+        pushpin.style.width = '20px';
+        pushpin.style.height = '20px';
+        pushpin.style.borderRadius = '50%';
+        pushpin.style.border = '2px solid rgba(0, 123, 255, 0.9)';
+        pushpin.style.backgroundColor = 'rgba(0, 123, 255, 0.3)';
+        pushpin.dataset.dbId = dbId;
+
+        pushpin._worldPosition = position.clone();
+
+        // Eliminar cualquier evento previo para evitar duplicados
+        pushpin.replaceWith(pushpin.cloneNode(true));
+        pushpin.addEventListener('click', () => {
+            if (this._activeSensors.has(dbId)) {
+                this._activeSensors.delete(dbId);
+                this.hideMarkup(dbId);
+                pushpin.style.backgroundColor = 'rgba(0, 123, 255, 0.3)';
+            } else {
+                this._activeSensors.add(dbId);
+                this.showMarkup(dbId, sensorData);
+                pushpin.style.backgroundColor = 'rgba(255, 0, 0, 0.5)';
+            }
         });
 
-        // Actualizar posiciones iniciales
-        this.updateMarkups();
-        console.log("Markups de datos de sensores aplicados.");
+        this.viewer.clientContainer.appendChild(pushpin);
+        this._pushpins.push({ pushpin, dbId });
+
+        this.updatePushpinPosition(pushpin);
     }
 
+
+
+
+
+    
+
+    updatePushpinPosition(pushpin) {
+        const screenPosition = this.viewer.worldToClient(pushpin._worldPosition);
+
+        pushpin.style.left = `${Math.floor(screenPosition.x - 10)}px`;
+        pushpin.style.top = `${Math.floor(screenPosition.y - 10)}px`;
+    }
 
 
     createMarkup(dbId, sensorData) {
@@ -165,86 +259,143 @@ class SensorDataExtension extends BaseExtension {
 
         const position = bbox.getCenter(new THREE.Vector3());
 
-        // Crear un label (markup) en HTML
         const label = document.createElement('div');
         label.className = 'sensorMarkup';
-
-        // Construir el contenido del label con los tres valores
         label.innerHTML = `
-            <div class="sensorTitle">Sensor Data</div>
-                <div class="sensorSectionContainer">
-                    <div class="sensorSection">
-                        <div class="title">Temperature</div>
-                        <div class="value ${this.getClassForValue('temperature', sensorData.temperature)}">${sensorData.temperature}°C</div>
-                    </div>
-                    <div class="sensorSection">
-                        <div class="title">CO2</div>
-                        <div class="value ${this.getClassForValue('co2', sensorData.co2)}">${sensorData.co2} ppm</div>
-                    </div>
-                    <div class="sensorSection">
-                        <div class="title">Humidity</div>
-                        <div class="value ${this.getClassForValue('humidity', sensorData.humidity)}">${sensorData.humidity}%</div>
-                    </div>
-                </div>
-        `;
-        label.style.position = 'absolute';
-        label.style.pointerEvents = 'auto';
-        label.style.zIndex = '10';
-
-        // Agregar el label al contenedor del visor
-        const viewerContainer = this.viewer.clientContainer;
-        viewerContainer.appendChild(label);
-
-        // Guardar referencia al label para actualizaciones posteriores
-        this._labels.push({ label, dbId });
-    }
-
-
-
-    
-
-    
-
-
-
-    updateMarkup(dbId) {
-        if (!this._enabled) return; // No actualizar si el botón está desactivado
-
-        const sensorData = SensorDataClient.data.find(item => item.dbId === dbId);
-        if (!sensorData) return;
-
-        const existingLabelInfo = this._labels.find(labelInfo => labelInfo.dbId === dbId);
-
-        if (existingLabelInfo) {
-            const label = existingLabelInfo.label;
-
-            // Actualizar las clases y contenido de los valores
-            label.innerHTML = `
-            <div class="sensorTitle">Sensor Data</div>
-            <div class="sensorSectionContainer">
+        <div class="sensorTitle">Sensor Data</div>
+        <div class="sensorSectionContainer">
             <div class="sensorSection">
                 <div class="title">Temperature</div>
-                <div class="value ${this.getClassForValue('temperature', sensorData.data.temperature)}">${sensorData.data.temperature}°C</div>
+                <div class="value ${this.getClassForValue('temperature', sensorData.temperature)}">${sensorData.temperature}°C</div>
             </div>
             <div class="sensorSection">
                 <div class="title">CO2</div>
-                <div class="value ${this.getClassForValue('co2', sensorData.data.co2)}">${sensorData.data.co2} ppm</div>
+                <div class="value ${this.getClassForValue('co2', sensorData.co2)}">${sensorData.co2} ppm</div>
             </div>
             <div class="sensorSection">
                 <div class="title">Humidity</div>
-                <div class="value ${this.getClassForValue('humidity', sensorData.data.humidity)}">${sensorData.data.humidity}%</div>
+                <div class="value ${this.getClassForValue('humidity', sensorData.humidity)}">${sensorData.humidity}%</div>
             </div>
+        </div>
+    `;
+        label.style.position = 'absolute';
+        label.style.pointerEvents = 'auto'; // Permitir clics en el Markup
+        label.style.zIndex = '10';
+        label.style.display = 'none'; // Mantenerlo oculto por defecto
+
+        label.addEventListener('click', () => {
+            this.viewer.select([dbId]); // Seleccionar el elemento
+            console.log(`Elemento con dbId ${dbId} seleccionado.`);
+        });
+
+        this.viewer.clientContainer.appendChild(label);
+
+        this._labels.push({ label, dbId });
+
+        label._worldPosition = position.clone();
+
+        this.updateMarkupPosition(label);
+    }
+
+
+
+
+    updateMarkup(dbId, sensorData) {
+        const labelInfo = this._labels.find(labelInfo => labelInfo.dbId === dbId);
+
+        if (!labelInfo) {
+            // Si no existe, crear el Markup pero mantenerlo oculto
+            this.createMarkup(dbId, sensorData);
+        } else {
+            // Actualizar el contenido del Markup
+            const { label } = labelInfo;
+            label.innerHTML = `
+            <div class="sensorTitle">Sensor Data</div>
+            <div class="sensorSectionContainer">
+                <div class="sensorSection">
+                    <div class="title">Temperature</div>
+                    <div class="value ${this.getClassForValue('temperature', sensorData.temperature)}">${sensorData.temperature}°C</div>
+                </div>
+                <div class="sensorSection">
+                    <div class="title">CO2</div>
+                    <div class="value ${this.getClassForValue('co2', sensorData.co2)}">${sensorData.co2} ppm</div>
+                </div>
+                <div class="sensorSection">
+                    <div class="title">Humidity</div>
+                    <div class="value ${this.getClassForValue('humidity', sensorData.humidity)}">${sensorData.humidity}%</div>
+                </div>
             </div>
         `;
-            console.log(`Markup actualizado para dbId: ${dbId}`);
+
+            // Actualizar posición solo si el Markup está visible
+            if (label.style.display === 'block') {
+                this.updateMarkupPosition(label);
+            }
+        }
+    }
+    
+
+    showMarkup(dbId, sensorData) {
+        const labelInfo = this._labels.find(labelInfo => labelInfo.dbId === dbId);
+
+        if (!labelInfo) {
+            // Si no existe, crear el Markup y mostrarlo
+            this.createMarkup(dbId, sensorData);
         } else {
-            // Crear un nuevo label si no existe
-            this.createMarkup(dbId, sensorData.data);
-            this.updateMarkups(); // Actualizar posiciones
+            const { label } = labelInfo;
+            label.style.display = 'block'; // Mostrar el Markup
+            this.updateMarkupPosition(label);
+        }
+    }
+    
+    
+    updateMarkupPosition(label) {
+        const screenPosition = this.viewer.worldToClient(label._worldPosition);
+
+        label.style.left = `${Math.floor(screenPosition.x - label.offsetWidth / 2)}px`;
+        label.style.top = `${Math.floor(screenPosition.y - label.offsetHeight - 30)}px`; // Posición un poco arriba del Pushpin
+    }
+
+
+
+    updatePositions() {
+        this._pushpins.forEach(({ pushpin }) => {
+            this.updatePushpinPosition(pushpin);
+        });
+
+        this._labels.forEach(({ label, dbId }) => {
+            this.updateMarkupPosition(label);
+        });
+    }
+
+
+    hideMarkup(dbId) {
+        const labelInfo = this._labels.find(labelInfo => labelInfo.dbId === dbId);
+        if (labelInfo) {
+            const { label } = labelInfo;
+            label.style.display = 'none'; // Ocultar el Markup
         }
     }
 
-    
+
+
+    clearPushpins() {
+        this._pushpins.forEach(({ pushpin }) => {
+            if (pushpin.parentNode) {
+                pushpin.parentNode.removeChild(pushpin);
+            }
+        });
+        this._pushpins = [];
+    }
+
+    clearLabels() {
+        this._labels.forEach(({ label }) => {
+            if (label.parentNode) {
+                label.parentNode.removeChild(label);
+            }
+        });
+        this._labels = [];
+    }
 
     getModifiedWorldBoundingBox(dbId) {
         const fragList = this.viewer.model.getFragmentList();
@@ -266,47 +417,20 @@ class SensorDataExtension extends BaseExtension {
         return bbox;
     }
 
-
-    updateMarkups() {
-        this._labels.forEach(({ label, dbId }) => {
-            const bbox = this.getModifiedWorldBoundingBox(dbId);
-            if (!bbox || bbox.isEmpty()) return;
-
-            const position = bbox.getCenter(new THREE.Vector3());
-            const screenPosition = this.viewer.worldToClient(position);
-
-            // Actualiza la posición en pantalla
-            label.style.left = `${Math.floor(screenPosition.x - label.offsetWidth / 2)}px`;
-            label.style.top = `${Math.floor(screenPosition.y - label.offsetHeight / 2)}px`;
-        });
-    }
-
-
-
-    clearLabels() {
-        // Eliminar todos los labels creados
-        this._labels.forEach(({ label }) => {
-            if (label.parentNode) {
-                label.parentNode.removeChild(label);
-            }
-        });
-        this._labels = [];
-    }
-
     getClassForValue(type, value) {
         if (value === null || value === undefined || isNaN(value)) {
-            return 'maintenance'; // Clase para valores no disponibles
+            return 'maintenance';
         }
 
         value = parseFloat(value);
 
         const classesByType = {
             temperature: [
-                { max: Infinity, min: 30, className: 'temperatureHigh' },      // Rojo
-                { max: 30, min: 27, className: 'temperatureYellow' },          // Amarillo
-                { max: 27, min: 20, className: 'temperatureGreen' },           // Verde
-                { max: 20, min: 15, className: 'temperatureCyan' },            // Cyan
-                { max: 15, min: -Infinity, className: 'temperatureBlueDark' }  // Azul oscuro
+                { max: Infinity, min: 30, className: 'temperatureHigh' },
+                { max: 30, min: 27, className: 'temperatureYellow' },
+                { max: 27, min: 20, className: 'temperatureGreen' },
+                { max: 20, min: 15, className: 'temperatureCyan' },
+                { max: 15, min: -Infinity, className: 'temperatureBlueDark' }
             ],
             co2: [
                 { max: Infinity, min: 1000, className: 'co2High' },
@@ -320,12 +444,10 @@ class SensorDataExtension extends BaseExtension {
             ]
         };
 
-        // Si el tipo no está definido, usa una clase por defecto
         if (!classesByType[type]) {
             return 'sensorValue';
         }
 
-        // Buscar la clase correspondiente al rango
         const ranges = classesByType[type];
         for (const range of ranges) {
             if (value >= range.min && value < range.max) {
@@ -333,25 +455,7 @@ class SensorDataExtension extends BaseExtension {
             }
         }
 
-        // Clase por defecto si no encaja en ningún rango
         return 'sensorValue';
     }
-
-
-
-    getLabelTextForType(sensorData, type) {
-        switch (type) {
-            case 'temperature':
-                return `${sensorData.temperature}°C`;
-            case 'co2':
-                return `${sensorData.co2} ppm`;
-            case 'humidity':
-                return `${sensorData.humidity}%`;
-            default:
-                return '';
-        }
-    }
-
-
 }
 Autodesk.Viewing.theExtensionManager.registerExtension('SensorDataExtension', SensorDataExtension);
