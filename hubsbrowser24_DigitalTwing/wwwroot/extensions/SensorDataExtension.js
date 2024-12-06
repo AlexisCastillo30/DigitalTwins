@@ -167,20 +167,11 @@ class SensorDataExtension extends BaseExtension {
             sensorDataArray.forEach(sensorData => {
                 const existingPushpin = this._pushpins.find(pin => pin.dbId === sensorData.dbId);
                 if (!existingPushpin) {
+                    // Crear un nuevo pushpin si no existe
                     this.createPushpin(sensorData.dbId, sensorData.data);
                 } else {
-                    // Asegurarnos de que el evento de clic esté listo
-                    existingPushpin.pushpin.addEventListener('click', () => {
-                        if (this._activeSensors.has(sensorData.dbId)) {
-                            this._activeSensors.delete(sensorData.dbId);
-                            this.hideMarkup(sensorData.dbId);
-                            existingPushpin.pushpin.style.backgroundColor = 'rgba(0, 123, 255, 0.3)';
-                        } else {
-                            this._activeSensors.add(sensorData.dbId);
-                            this.showMarkup(sensorData.dbId, sensorData.data);
-                            existingPushpin.pushpin.style.backgroundColor = 'rgba(255, 0, 0, 0.5)';
-                        }
-                    });
+                    // Reconfigurar el pushpin existente
+                    this.reconfigurePushpin(existingPushpin.pushpin, sensorData.dbId, sensorData.data);
                 }
             });
 
@@ -189,6 +180,47 @@ class SensorDataExtension extends BaseExtension {
             this.clearPushpins();
         }
     }
+
+
+    reconfigurePushpin(pushpin, dbId, sensorData) {
+        // Eliminar cualquier evento anterior (reemplazamos el nodo por uno clonado)
+        const newPushpin = pushpin.cloneNode(true);
+        pushpin.parentNode.replaceChild(newPushpin, pushpin);
+
+        // Registrar evento de clic para seleccionar el elemento y mostrar/ocultar el markup
+        newPushpin.addEventListener('click', () => {
+            this.viewer.select([dbId]); // Seleccionar el elemento
+            if (this._activeSensors.has(dbId)) {
+                this._activeSensors.delete(dbId);
+                this.hideMarkup(dbId);
+                newPushpin.style.backgroundColor = 'rgba(0, 123, 255, 0.3)'; // Estado apagado
+            } else {
+                this._activeSensors.add(dbId);
+                this.showMarkup(dbId, sensorData);
+                newPushpin.style.backgroundColor = 'rgba(255, 0, 0, 0.5)'; // Estado encendido
+            }
+        });
+
+        // Registrar eventos de previsualización (mouseover y mouseout)
+        newPushpin.addEventListener('mouseover', () => {
+            this.showMarkupPreview(dbId);
+        });
+
+        newPushpin.addEventListener('mouseout', () => {
+            this.hideMarkupPreview(dbId);
+        });
+
+        // Actualizar la posición del pushpin
+        this.updatePushpinPosition(newPushpin);
+
+        // Actualizar la referencia en la lista de pushpins
+        const pushpinIndex = this._pushpins.findIndex(pin => pin.pushpin === pushpin);
+        if (pushpinIndex !== -1) {
+            this._pushpins[pushpinIndex].pushpin = newPushpin;
+        }
+    }
+
+
 
 
 
@@ -216,24 +248,52 @@ class SensorDataExtension extends BaseExtension {
 
         pushpin._worldPosition = position.clone();
 
-        // Eliminar cualquier evento previo para evitar duplicados
-        pushpin.replaceWith(pushpin.cloneNode(true));
+        // Registrar eventos de clic y previsualización
         pushpin.addEventListener('click', () => {
+            this.viewer.select([dbId]); // Seleccionar el elemento
             if (this._activeSensors.has(dbId)) {
                 this._activeSensors.delete(dbId);
                 this.hideMarkup(dbId);
-                pushpin.style.backgroundColor = 'rgba(0, 123, 255, 0.3)';
+                pushpin.style.backgroundColor = 'rgba(0, 123, 255, 0.3)'; // Estado apagado
             } else {
                 this._activeSensors.add(dbId);
                 this.showMarkup(dbId, sensorData);
-                pushpin.style.backgroundColor = 'rgba(255, 0, 0, 0.5)';
+                pushpin.style.backgroundColor = 'rgba(255, 0, 0, 0.5)'; // Estado encendido
             }
+        });
+
+        pushpin.addEventListener('mouseover', () => {
+            this.showMarkupPreview(dbId);
+        });
+
+        pushpin.addEventListener('mouseout', () => {
+            this.hideMarkupPreview(dbId);
         });
 
         this.viewer.clientContainer.appendChild(pushpin);
         this._pushpins.push({ pushpin, dbId });
 
         this.updatePushpinPosition(pushpin);
+    }
+
+
+
+
+    showMarkupPreview(dbId) {
+        const labelInfo = this._labels.find(labelInfo => labelInfo.dbId === dbId);
+        if (labelInfo) {
+            const { label } = labelInfo;
+            label.style.display = 'block'; // Mostrar el markup temporalmente
+            this.updateMarkupPosition(label);
+        }
+    }
+
+    hideMarkupPreview(dbId) {
+        const labelInfo = this._labels.find(labelInfo => labelInfo.dbId === dbId);
+        if (labelInfo && !this._activeSensors.has(dbId)) {
+            const { label } = labelInfo;
+            label.style.display = 'none'; // Ocultar el markup si no está activado
+        }
     }
 
 
@@ -339,14 +399,15 @@ class SensorDataExtension extends BaseExtension {
         const labelInfo = this._labels.find(labelInfo => labelInfo.dbId === dbId);
 
         if (!labelInfo) {
-            // Si no existe, crear el Markup y mostrarlo
             this.createMarkup(dbId, sensorData);
         } else {
             const { label } = labelInfo;
             label.style.display = 'block'; // Mostrar el Markup
+            label.style.opacity = '1'; // Restaurar opacidad completa
             this.updateMarkupPosition(label);
         }
     }
+
     
     
     updateMarkupPosition(label) {
