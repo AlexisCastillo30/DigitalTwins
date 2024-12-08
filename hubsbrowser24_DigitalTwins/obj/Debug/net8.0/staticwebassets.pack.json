@@ -1,99 +1,99 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
       "PackagePath": "staticwebassets\\botones.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\BaseExtension.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\BaseExtension.js",
       "PackagePath": "staticwebassets\\extensions\\BaseExtension.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridExtension.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridExtension.js",
       "PackagePath": "staticwebassets\\extensions\\DataGridExtension.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridPanel.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridPanel.js",
       "PackagePath": "staticwebassets\\extensions\\DataGridPanel.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\GeorefExtension.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\GeorefExtension.js",
       "PackagePath": "staticwebassets\\extensions\\GeorefExtension.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramExtension.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramExtension.js",
       "PackagePath": "staticwebassets\\extensions\\HistogramExtension.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramPanel.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramPanel.js",
       "PackagePath": "staticwebassets\\extensions\\HistogramPanel.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistoricalDataView.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistoricalDataView.js",
       "PackagePath": "staticwebassets\\extensions\\HistoricalDataView.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\LoggerExtension.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\LoggerExtension.js",
       "PackagePath": "staticwebassets\\extensions\\LoggerExtension.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
       "PackagePath": "staticwebassets\\extensions\\ProgressBarExtension.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
       "PackagePath": "staticwebassets\\extensions\\ProgressBarPanel.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataClient.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataClient.js",
       "PackagePath": "staticwebassets\\extensions\\SensorDataClient.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataExtension.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataExtension.js",
       "PackagePath": "staticwebassets\\extensions\\SensorDataExtension.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDetailPanel.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDetailPanel.js",
       "PackagePath": "staticwebassets\\extensions\\SensorDetailPanel.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorHeatmapsExtension.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorHeatmapsExtension.js",
       "PackagePath": "staticwebassets\\extensions\\SensorHeatmapsExtension.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorHeatmapsPanel.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorHeatmapsPanel.js",
       "PackagePath": "staticwebassets\\extensions\\SensorHeatmapsPanel.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorListExtension.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorListExtension.js",
       "PackagePath": "staticwebassets\\extensions\\SensorListExtension.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorListPanel.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorListPanel.js",
       "PackagePath": "staticwebassets\\extensions\\SensorListPanel.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SummaryPanel.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SummaryPanel.js",
       "PackagePath": "staticwebassets\\extensions\\SummaryPanel.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
       "PackagePath": "staticwebassets\\main.css"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
       "PackagePath": "staticwebassets\\main.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\sidebar.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\sidebar.js",
       "PackagePath": "staticwebassets\\sidebar.js"
     },
     {
-      "Id": "C:\\Users\\sarmientoc\\Documents\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
       "PackagePath": "staticwebassets\\viewer.js"
     },
     {
@@ -107,6 +107,10 @@
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.hubsbrowser24.props",
       "PackagePath": "buildTransitive\\hubsbrowser24.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.hubsbrowser24.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.hubsbrowser24.Microsoft.AspNetCore.StaticWebAssets.props",

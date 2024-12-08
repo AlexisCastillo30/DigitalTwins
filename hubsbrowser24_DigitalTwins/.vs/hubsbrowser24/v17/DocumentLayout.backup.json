@@ -1,18 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\",
+  "WorkspaceRootPath": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\progressbarextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\progressbarextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\baseextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\baseextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\sidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\sidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\histogrampanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\histogrampanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\histogramextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\histogramextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\datagridextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\datagridextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\botones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\botones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\datagridpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\datagridpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +62,174 @@
       "DocumentGroups": [
         {
           "DockedWidth": 496,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.js",
-              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
-              "RelativeDocumentMoniker": "wwwroot\\main.js",
-              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
-              "RelativeToolTip": "wwwroot\\main.js",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-04T03:44:02.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
               "RelativeDocumentMoniker": "wwwroot\\main.css",
-              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
               "RelativeToolTip": "wwwroot\\main.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAYwE4BAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-12-02T21:38:49.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "viewer.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
+              "RelativeDocumentMoniker": "wwwroot\\viewer.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
+              "RelativeToolTip": "wwwroot\\viewer.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T21:23:57.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HistogramPanel.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramPanel.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\HistogramPanel.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramPanel.js",
+              "RelativeToolTip": "wwwroot\\extensions\\HistogramPanel.js",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwEgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T22:06:02.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HistogramExtension.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramExtension.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\HistogramExtension.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramExtension.js",
+              "RelativeToolTip": "wwwroot\\extensions\\HistogramExtension.js",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAowFcAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T22:07:23.167Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\main.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
+              "RelativeToolTip": "wwwroot\\main.js",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-04T03:44:02.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseExtension.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\BaseExtension.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\BaseExtension.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\BaseExtension.js",
+              "RelativeToolTip": "wwwroot\\extensions\\BaseExtension.js",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAmwIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T21:27:39.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\index.html",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
               "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-02T21:38:28.566Z",
+              "WhenOpened": "2024-12-02T21:38:28.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataGridExtension.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridExtension.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\DataGridExtension.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridExtension.js",
+              "RelativeToolTip": "wwwroot\\extensions\\DataGridExtension.js",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T15:51:21.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataGridPanel.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridPanel.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\DataGridPanel.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridPanel.js",
+              "RelativeToolTip": "wwwroot\\extensions\\DataGridPanel.js",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAIwHUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T20:33:13.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "botones.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
+              "RelativeDocumentMoniker": "wwwroot\\botones.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
+              "RelativeToolTip": "wwwroot\\botones.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T15:57:42.916Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 496,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgressBarPanel.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarPanel.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
+              "RelativeToolTip": "wwwroot\\extensions\\ProgressBarPanel.js",
+              "ViewState": "AgIAALgAAAAAAAAAAAAgwDoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T21:33:26.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "sidebar.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\sidebar.js",
+              "RelativeDocumentMoniker": "wwwroot\\sidebar.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\sidebar.js",
+              "RelativeToolTip": "wwwroot\\sidebar.js",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-06T20:03:18.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProgressBarExtension.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarExtension.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
+              "RelativeToolTip": "wwwroot\\extensions\\ProgressBarExtension.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T21:34:28.245Z",
               "EditorCaption": ""
             }
           ]

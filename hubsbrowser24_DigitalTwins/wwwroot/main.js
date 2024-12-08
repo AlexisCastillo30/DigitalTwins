@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const progressBarExtension = viewer.getExtension('ProgressBarExtension');
                 if (progressBarExtension && progressBarExtension.panel) {
                     console.log("Inicializando la barra de progreso.");
-                    progressBarExtension.panel.initChart();
+                    /*progressBarExtension.panel.initChart();*/
                 } else {
                     console.error("No se encontró la extensión ProgressBarExtension.");
                 }
