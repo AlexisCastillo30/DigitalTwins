@@ -2,6 +2,8 @@ wwwroot\botones.js
 wwwroot\extensions\BaseExtension.js
 wwwroot\extensions\DataGridExtension.js
 wwwroot\extensions\DataGridPanel.js
+wwwroot\extensions\EmptyParamsExtension.js
+wwwroot\extensions\EmptyParamsPanel.js
 wwwroot\extensions\GeorefExtension.js
 wwwroot\extensions\HistogramExtension.js
 wwwroot\extensions\HistogramPanel.js

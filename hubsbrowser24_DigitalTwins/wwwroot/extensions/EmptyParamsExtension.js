@@ -1,7 +1,7 @@
 ﻿import { BaseExtension } from './BaseExtension.js';
-import { ProgressBarPanel } from './ProgressBarPanel.js';
+import { EmptyParamsPanel } from './EmptyParamsPanel.js';
 
-class ProgressBarExtension extends BaseExtension {
+class EmptyParamsExtension extends BaseExtension {
     constructor(viewer, options) {
         super(viewer, options);
         this.panel = null;
@@ -9,9 +9,9 @@ class ProgressBarExtension extends BaseExtension {
 
     async load() {
         await super.load();
-        console.log('ProgressBarExtension loaded.');
+        console.log('EmptyParamsExtension loaded.');
         if (!this.panel) {
-            this.panel = new ProgressBarPanel(this, 'bim-quality-panel', 'progress-chart');
+            this.panel = new EmptyParamsPanel(this, 'bim-quality-panel', 'empty-params-chart');
         }
         return true;
     }
@@ -20,11 +20,10 @@ class ProgressBarExtension extends BaseExtension {
         if (this.panel) {
             this.panel = null;
         }
-        console.log('ProgressBarExtension unloaded.');
+        console.log('EmptyParamsExtension unloaded.');
         return true;
     }
 
-    // Este método se llamará automáticamente cuando el árbol de objetos esté listo,
     onModelLoaded(model) {
         super.onModelLoaded(model);
         if (this.panel) {
@@ -32,4 +31,5 @@ class ProgressBarExtension extends BaseExtension {
         }
     }
 }
-Autodesk.Viewing.theExtensionManager.registerExtension('ProgressBarExtension', ProgressBarExtension);
+
+Autodesk.Viewing.theExtensionManager.registerExtension('EmptyParamsExtension', EmptyParamsExtension);

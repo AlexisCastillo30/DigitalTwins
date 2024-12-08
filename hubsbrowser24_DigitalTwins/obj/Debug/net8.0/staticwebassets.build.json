@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RW+g8FDA4/s6O3QrhIfd1Ee4+Kau5pWuEmhlKQZGB6k=",
+  "Hash": "ySci5jOyNnxZFycYvA91fb2jpomrMRZr+H/UvxrCQhA=",
   "Source": "hubsbrowser24",
   "BasePath": "_content/hubsbrowser24",
   "Mode": "Default",
@@ -99,6 +99,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\extensions\\DataGridPanel.js"
+    },
+    {
+      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsExtension.js",
+      "SourceId": "hubsbrowser24",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "BasePath": "_content/hubsbrowser24",
+      "RelativePath": "extensions/EmptyParamsExtension#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oegf9wzakj",
+      "Integrity": "0NnD8Tm7AgERqFnIwCc4tTB8XKXM7JFBn8PvaEUSHrU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\extensions\\EmptyParamsExtension.js"
+    },
+    {
+      "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsPanel.js",
+      "SourceId": "hubsbrowser24",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "BasePath": "_content/hubsbrowser24",
+      "RelativePath": "extensions/EmptyParamsPanel#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8bk3wvsebm",
+      "Integrity": "bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\extensions\\EmptyParamsPanel.js"
     },
     {
       "Identity": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\GeorefExtension.js",
@@ -220,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "t7ktieyjr8",
-      "Integrity": "mTURGZ+cC9ZCbLP3UdEexid3bAsRZRSWKkaFo7wvlAc=",
+      "Fingerprint": "gq89e89ar5",
+      "Integrity": "iG1IRk4Wd6PILEi0J19CeziytNUFRZfAeegnVHHQ9Es=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\extensions\\ProgressBarExtension.js"
@@ -241,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0tbqujp7sg",
-      "Integrity": "vOep5t5LveiO/gf6chm7qeeDgCXkK31negBV15hRd1A=",
+      "Fingerprint": "clthwdomx6",
+      "Integrity": "ECTn13phZxAKSyEOSR1dtMdnb/CqZPVnOCvYLmJaXbw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\extensions\\ProgressBarPanel.js"
@@ -430,8 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ywsiuvahp6",
-      "Integrity": "4vyxJNLhMj9e8pEElZJ8nVbbmEfPt0ST8uzTsqGrnGQ=",
+      "Fingerprint": "ec5lg7qegl",
+      "Integrity": "TrpG8Eat5gs2PlivNCqczgKF6odJYs1sBro0bdXRUb0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -472,8 +514,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "usryh3yrgj",
-      "Integrity": "Pj4ZmottIOIc1h6nByFZ2oOptoGs8c8VeisiUXqD2MI=",
+      "Fingerprint": "igaw2lgl6l",
+      "Integrity": "8vKvVSuBR4Zn+P7PKO+7CPcDrJ9m9VZs9MBaYB/arn0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\main.js"
@@ -514,8 +556,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "n3ej4c6mei",
-      "Integrity": "I+JNJ35CkyYiKGYSqSRpWTWOKax5/fJNaFXgVTIb+m4=",
+      "Fingerprint": "7c93bls7su",
+      "Integrity": "+c52kG92hF37nCo7YnlWS/vIfqbUrZAv5geNDO5QxAE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\viewer.js"
@@ -847,6 +889,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-vYNXjpZbigzQ8i2nJxswspkryYyHC9urIJZru8E4YCk="
+        }
+      ]
+    },
+    {
+      "Route": "extensions/EmptyParamsExtension.js",
+      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsExtension.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0NnD8Tm7AgERqFnIwCc4tTB8XKXM7JFBn8PvaEUSHrU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 17:10:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0NnD8Tm7AgERqFnIwCc4tTB8XKXM7JFBn8PvaEUSHrU="
+        }
+      ]
+    },
+    {
+      "Route": "extensions/EmptyParamsExtension.oegf9wzakj.js",
+      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsExtension.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0NnD8Tm7AgERqFnIwCc4tTB8XKXM7JFBn8PvaEUSHrU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 17:10:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oegf9wzakj"
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/EmptyParamsExtension.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0NnD8Tm7AgERqFnIwCc4tTB8XKXM7JFBn8PvaEUSHrU="
+        }
+      ]
+    },
+    {
+      "Route": "extensions/EmptyParamsPanel.8bk3wvsebm.js",
+      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsPanel.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 20:53:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8bk3wvsebm"
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/EmptyParamsPanel.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A="
+        }
+      ]
+    },
+    {
+      "Route": "extensions/EmptyParamsPanel.js",
+      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsPanel.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 20:53:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A="
         }
       ]
     },
@@ -1261,6 +1467,51 @@
       ]
     },
     {
+      "Route": "extensions/ProgressBarExtension.gq89e89ar5.js",
+      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iG1IRk4Wd6PILEi0J19CeziytNUFRZfAeegnVHHQ9Es=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 17:14:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gq89e89ar5"
+        },
+        {
+          "Name": "label",
+          "Value": "extensions/ProgressBarExtension.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iG1IRk4Wd6PILEi0J19CeziytNUFRZfAeegnVHHQ9Es="
+        }
+      ]
+    },
+    {
       "Route": "extensions/ProgressBarExtension.js",
       "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
       "Selectors": [],
@@ -1271,7 +1522,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1049"
+          "Value": "1060"
         },
         {
           "Name": "Content-Type",
@@ -1279,11 +1530,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mTURGZ+cC9ZCbLP3UdEexid3bAsRZRSWKkaFo7wvlAc=\""
+          "Value": "\"iG1IRk4Wd6PILEi0J19CeziytNUFRZfAeegnVHHQ9Es=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 23:23:53 GMT"
+          "Value": "Sun, 08 Dec 2024 17:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1293,57 +1544,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mTURGZ+cC9ZCbLP3UdEexid3bAsRZRSWKkaFo7wvlAc="
+          "Value": "sha256-iG1IRk4Wd6PILEi0J19CeziytNUFRZfAeegnVHHQ9Es="
         }
       ]
     },
     {
-      "Route": "extensions/ProgressBarExtension.t7ktieyjr8.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1049"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mTURGZ+cC9ZCbLP3UdEexid3bAsRZRSWKkaFo7wvlAc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 23:23:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "t7ktieyjr8"
-        },
-        {
-          "Name": "label",
-          "Value": "extensions/ProgressBarExtension.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mTURGZ+cC9ZCbLP3UdEexid3bAsRZRSWKkaFo7wvlAc="
-        }
-      ]
-    },
-    {
-      "Route": "extensions/ProgressBarPanel.0tbqujp7sg.js",
+      "Route": "extensions/ProgressBarPanel.clthwdomx6.js",
       "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1353,7 +1559,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8197"
+          "Value": "8492"
         },
         {
           "Name": "Content-Type",
@@ -1361,11 +1567,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vOep5t5LveiO/gf6chm7qeeDgCXkK31negBV15hRd1A=\""
+          "Value": "\"ECTn13phZxAKSyEOSR1dtMdnb/CqZPVnOCvYLmJaXbw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 15:19:55 GMT"
+          "Value": "Sun, 08 Dec 2024 15:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1375,7 +1581,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0tbqujp7sg"
+          "Value": "clthwdomx6"
         },
         {
           "Name": "label",
@@ -1383,7 +1589,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vOep5t5LveiO/gf6chm7qeeDgCXkK31negBV15hRd1A="
+          "Value": "sha256-ECTn13phZxAKSyEOSR1dtMdnb/CqZPVnOCvYLmJaXbw="
         }
       ]
     },
@@ -1398,7 +1604,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8197"
+          "Value": "8492"
         },
         {
           "Name": "Content-Type",
@@ -1406,11 +1612,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vOep5t5LveiO/gf6chm7qeeDgCXkK31negBV15hRd1A=\""
+          "Value": "\"ECTn13phZxAKSyEOSR1dtMdnb/CqZPVnOCvYLmJaXbw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 15:19:55 GMT"
+          "Value": "Sun, 08 Dec 2024 15:31:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1420,7 +1626,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vOep5t5LveiO/gf6chm7qeeDgCXkK31negBV15hRd1A="
+          "Value": "sha256-ECTn13phZxAKSyEOSR1dtMdnb/CqZPVnOCvYLmJaXbw="
         }
       ]
     },
@@ -2081,6 +2287,51 @@
       ]
     },
     {
+      "Route": "index.ec5lg7qegl.html",
+      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TrpG8Eat5gs2PlivNCqczgKF6odJYs1sBro0bdXRUb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 17:04:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ec5lg7qegl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TrpG8Eat5gs2PlivNCqczgKF6odJYs1sBro0bdXRUb0="
+        }
+      ]
+    },
+    {
       "Route": "index.html",
       "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
       "Selectors": [],
@@ -2091,7 +2342,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3114"
+          "Value": "3165"
         },
         {
           "Name": "Content-Type",
@@ -2099,11 +2350,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4vyxJNLhMj9e8pEElZJ8nVbbmEfPt0ST8uzTsqGrnGQ=\""
+          "Value": "\"TrpG8Eat5gs2PlivNCqczgKF6odJYs1sBro0bdXRUb0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 03:35:13 GMT"
+          "Value": "Sun, 08 Dec 2024 17:04:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2113,52 +2364,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4vyxJNLhMj9e8pEElZJ8nVbbmEfPt0ST8uzTsqGrnGQ="
-        }
-      ]
-    },
-    {
-      "Route": "index.ywsiuvahp6.html",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3114"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4vyxJNLhMj9e8pEElZJ8nVbbmEfPt0ST8uzTsqGrnGQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 03:35:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ywsiuvahp6"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4vyxJNLhMj9e8pEElZJ8nVbbmEfPt0ST8uzTsqGrnGQ="
+          "Value": "sha256-TrpG8Eat5gs2PlivNCqczgKF6odJYs1sBro0bdXRUb0="
         }
       ]
     },
@@ -2200,6 +2406,51 @@
       ]
     },
     {
+      "Route": "main.igaw2lgl6l.js",
+      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8vKvVSuBR4Zn+P7PKO+7CPcDrJ9m9VZs9MBaYB/arn0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 17:08:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "igaw2lgl6l"
+        },
+        {
+          "Name": "label",
+          "Value": "main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8vKvVSuBR4Zn+P7PKO+7CPcDrJ9m9VZs9MBaYB/arn0="
+        }
+      ]
+    },
+    {
       "Route": "main.js",
       "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
       "Selectors": [],
@@ -2210,7 +2461,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5099"
+          "Value": "5539"
         },
         {
           "Name": "Content-Type",
@@ -2218,11 +2469,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Pj4ZmottIOIc1h6nByFZ2oOptoGs8c8VeisiUXqD2MI=\""
+          "Value": "\"8vKvVSuBR4Zn+P7PKO+7CPcDrJ9m9VZs9MBaYB/arn0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 15:14:32 GMT"
+          "Value": "Sun, 08 Dec 2024 17:08:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2232,7 +2483,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Pj4ZmottIOIc1h6nByFZ2oOptoGs8c8VeisiUXqD2MI="
+          "Value": "sha256-8vKvVSuBR4Zn+P7PKO+7CPcDrJ9m9VZs9MBaYB/arn0="
         }
       ]
     },
@@ -2278,51 +2529,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-l+MaWlOsjv0I51sRGe0+x2g/4cXJ/6CvPzGefwVDU2k="
-        }
-      ]
-    },
-    {
-      "Route": "main.usryh3yrgj.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5099"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Pj4ZmottIOIc1h6nByFZ2oOptoGs8c8VeisiUXqD2MI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 15:14:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "usryh3yrgj"
-        },
-        {
-          "Name": "label",
-          "Value": "main.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Pj4ZmottIOIc1h6nByFZ2oOptoGs8c8VeisiUXqD2MI="
         }
       ]
     },
@@ -2409,6 +2615,51 @@
       ]
     },
     {
+      "Route": "viewer.7c93bls7su.js",
+      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+c52kG92hF37nCo7YnlWS/vIfqbUrZAv5geNDO5QxAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 17:04:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7c93bls7su"
+        },
+        {
+          "Name": "label",
+          "Value": "viewer.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+c52kG92hF37nCo7YnlWS/vIfqbUrZAv5geNDO5QxAE="
+        }
+      ]
+    },
+    {
       "Route": "viewer.js",
       "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
       "Selectors": [],
@@ -2419,7 +2670,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2355"
+          "Value": "2427"
         },
         {
           "Name": "Content-Type",
@@ -2427,11 +2678,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"I+JNJ35CkyYiKGYSqSRpWTWOKax5/fJNaFXgVTIb+m4=\""
+          "Value": "\"+c52kG92hF37nCo7YnlWS/vIfqbUrZAv5geNDO5QxAE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 23:25:49 GMT"
+          "Value": "Sun, 08 Dec 2024 17:04:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2441,52 +2692,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-I+JNJ35CkyYiKGYSqSRpWTWOKax5/fJNaFXgVTIb+m4="
-        }
-      ]
-    },
-    {
-      "Route": "viewer.n3ej4c6mei.js",
-      "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2355"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I+JNJ35CkyYiKGYSqSRpWTWOKax5/fJNaFXgVTIb+m4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 23:25:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "n3ej4c6mei"
-        },
-        {
-          "Name": "label",
-          "Value": "viewer.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-I+JNJ35CkyYiKGYSqSRpWTWOKax5/fJNaFXgVTIb+m4="
+          "Value": "sha256-+c52kG92hF37nCo7YnlWS/vIfqbUrZAv5geNDO5QxAE="
         }
       ]
     }

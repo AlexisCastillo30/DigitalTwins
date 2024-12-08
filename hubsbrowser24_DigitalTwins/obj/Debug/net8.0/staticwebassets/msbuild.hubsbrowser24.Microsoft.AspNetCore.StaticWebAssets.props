@@ -72,6 +72,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\DataGridPanel.js'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\EmptyParamsExtension.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>hubsbrowser24</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/hubsbrowser24</BasePath>
+      <RelativePath>extensions/EmptyParamsExtension.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>oegf9wzakj</Fingerprint>
+      <Integrity>0NnD8Tm7AgERqFnIwCc4tTB8XKXM7JFBn8PvaEUSHrU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\EmptyParamsExtension.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\EmptyParamsPanel.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>hubsbrowser24</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/hubsbrowser24</BasePath>
+      <RelativePath>extensions/EmptyParamsPanel.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8bk3wvsebm</Fingerprint>
+      <Integrity>bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\EmptyParamsPanel.js'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\GeorefExtension.js'))">
       <SourceType>Package</SourceType>
       <SourceId>hubsbrowser24</SourceId>
@@ -174,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t7ktieyjr8</Fingerprint>
-      <Integrity>mTURGZ+cC9ZCbLP3UdEexid3bAsRZRSWKkaFo7wvlAc=</Integrity>
+      <Fingerprint>gq89e89ar5</Fingerprint>
+      <Integrity>iG1IRk4Wd6PILEi0J19CeziytNUFRZfAeegnVHHQ9Es=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\ProgressBarExtension.js'))</OriginalItemSpec>
@@ -192,8 +228,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0tbqujp7sg</Fingerprint>
-      <Integrity>vOep5t5LveiO/gf6chm7qeeDgCXkK31negBV15hRd1A=</Integrity>
+      <Fingerprint>clthwdomx6</Fingerprint>
+      <Integrity>ECTn13phZxAKSyEOSR1dtMdnb/CqZPVnOCvYLmJaXbw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\ProgressBarPanel.js'))</OriginalItemSpec>
@@ -354,8 +390,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ywsiuvahp6</Fingerprint>
-      <Integrity>4vyxJNLhMj9e8pEElZJ8nVbbmEfPt0ST8uzTsqGrnGQ=</Integrity>
+      <Fingerprint>ec5lg7qegl</Fingerprint>
+      <Integrity>TrpG8Eat5gs2PlivNCqczgKF6odJYs1sBro0bdXRUb0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -390,8 +426,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>usryh3yrgj</Fingerprint>
-      <Integrity>Pj4ZmottIOIc1h6nByFZ2oOptoGs8c8VeisiUXqD2MI=</Integrity>
+      <Fingerprint>igaw2lgl6l</Fingerprint>
+      <Integrity>8vKvVSuBR4Zn+P7PKO+7CPcDrJ9m9VZs9MBaYB/arn0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main.js'))</OriginalItemSpec>
@@ -426,8 +462,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n3ej4c6mei</Fingerprint>
-      <Integrity>I+JNJ35CkyYiKGYSqSRpWTWOKax5/fJNaFXgVTIb+m4=</Integrity>
+      <Fingerprint>7c93bls7su</Fingerprint>
+      <Integrity>+c52kG92hF37nCo7YnlWS/vIfqbUrZAv5geNDO5QxAE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\viewer.js'))</OriginalItemSpec>

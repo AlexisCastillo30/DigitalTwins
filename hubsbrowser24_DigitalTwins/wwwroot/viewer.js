@@ -9,6 +9,7 @@ import './extensions/SensorDetailExtension.js';
 import './extensions/SensorHeatmapsExtension.js';
 import './extensions/SensorListExtension.js';
 import './extensions/ProgressBarExtension.js';
+import './extensions/EmptyParamsExtension.js';
 
 async function getAccessToken(callback) {
     try {
@@ -27,7 +28,7 @@ export function initViewer(container) {
     return new Promise(function (resolve, reject) {
         Autodesk.Viewing.Initializer({ env: 'AutodeskProduction', getAccessToken }, function () {
             const config = {
-                extensions: ['Autodesk.DocumentBrowser', 'LoggerExtension', 'SummaryExtension', 'HistogramExtension', 'DataGridExtension', 'SensorDataExtension', 'GeorefExtension', 'SensorDetailExtension', 'SensorHeatmapsExtension', 'SensorListExtension', 'ProgressBarExtension']
+                extensions: ['Autodesk.DocumentBrowser', 'LoggerExtension', 'SummaryExtension', 'HistogramExtension', 'DataGridExtension', 'SensorDataExtension', 'GeorefExtension', 'SensorDetailExtension', 'SensorHeatmapsExtension', 'SensorListExtension', 'ProgressBarExtension', 'EmptyParamsExtension']
             };
             const viewer = new Autodesk.Viewing.GuiViewer3D(container, config);
             viewer.start();

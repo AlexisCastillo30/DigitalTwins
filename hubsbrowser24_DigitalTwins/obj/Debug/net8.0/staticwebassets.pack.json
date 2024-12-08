@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\extensions\\DataGridPanel.js"
     },
     {
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsExtension.js",
+      "PackagePath": "staticwebassets\\extensions\\EmptyParamsExtension.js"
+    },
+    {
+      "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsPanel.js",
+      "PackagePath": "staticwebassets\\extensions\\EmptyParamsPanel.js"
+    },
+    {
       "Id": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\GeorefExtension.js",
       "PackagePath": "staticwebassets\\extensions\\GeorefExtension.js"
     },
