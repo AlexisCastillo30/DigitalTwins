@@ -60,17 +60,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oegf9wzakj"},{"Name":"integrity","Value":"sha256-0NnD8Tm7AgERqFnIwCc4tTB8XKXM7JFBn8PvaEUSHrU="},{"Name":"label","Value":"_content/hubsbrowser24/extensions/EmptyParamsExtension.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"975"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00220NnD8Tm7AgERqFnIwCc4tTB8XKXM7JFBn8PvaEUSHrU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 17:10:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/hubsbrowser24/extensions/EmptyParamsPanel.8bk3wvsebm.js">
+    <StaticWebAssetEndpoint Include="_content/hubsbrowser24/extensions/EmptyParamsPanel.5scnwpppca.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\EmptyParamsPanel.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8bk3wvsebm"},{"Name":"integrity","Value":"sha256-bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9\u002BBtGRpLPx4Y6A="},{"Name":"label","Value":"_content/hubsbrowser24/extensions/EmptyParamsPanel.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5924"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9\u002BBtGRpLPx4Y6A=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 20:53:50 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5scnwpppca"},{"Name":"integrity","Value":"sha256-dZRP1pv8kfJjn9AyfFEhRPfz6mF1jXbla8Dv0va1oDs="},{"Name":"label","Value":"_content/hubsbrowser24/extensions/EmptyParamsPanel.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6538"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dZRP1pv8kfJjn9AyfFEhRPfz6mF1jXbla8Dv0va1oDs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 23:24:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/hubsbrowser24/extensions/EmptyParamsPanel.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\EmptyParamsPanel.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9\u002BBtGRpLPx4Y6A="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5924"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9\u002BBtGRpLPx4Y6A=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 20:53:50 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dZRP1pv8kfJjn9AyfFEhRPfz6mF1jXbla8Dv0va1oDs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6538"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dZRP1pv8kfJjn9AyfFEhRPfz6mF1jXbla8Dv0va1oDs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 23:24:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/hubsbrowser24/extensions/GeorefExtension.b8sszu0jqa.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\GeorefExtension.js'))</AssetFile>

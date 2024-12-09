@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ySci5jOyNnxZFycYvA91fb2jpomrMRZr+H/UvxrCQhA=",
+  "Hash": "8BUp62tZZTM08zqYYHeCjBxIePEEMq/wjv+CKyZHk/Q=",
   "Source": "hubsbrowser24",
   "BasePath": "_content/hubsbrowser24",
   "Mode": "Default",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8bk3wvsebm",
-      "Integrity": "bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A=",
+      "Fingerprint": "5scnwpppca",
+      "Integrity": "dZRP1pv8kfJjn9AyfFEhRPfz6mF1jXbla8Dv0va1oDs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\extensions\\EmptyParamsPanel.js"
@@ -975,7 +975,7 @@
       ]
     },
     {
-      "Route": "extensions/EmptyParamsPanel.8bk3wvsebm.js",
+      "Route": "extensions/EmptyParamsPanel.5scnwpppca.js",
       "AssetFile": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsPanel.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -985,7 +985,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5924"
+          "Value": "6538"
         },
         {
           "Name": "Content-Type",
@@ -993,11 +993,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A=\""
+          "Value": "\"dZRP1pv8kfJjn9AyfFEhRPfz6mF1jXbla8Dv0va1oDs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 20:53:50 GMT"
+          "Value": "Sun, 08 Dec 2024 23:24:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1007,7 +1007,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8bk3wvsebm"
+          "Value": "5scnwpppca"
         },
         {
           "Name": "label",
@@ -1015,7 +1015,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A="
+          "Value": "sha256-dZRP1pv8kfJjn9AyfFEhRPfz6mF1jXbla8Dv0va1oDs="
         }
       ]
     },
@@ -1030,7 +1030,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5924"
+          "Value": "6538"
         },
         {
           "Name": "Content-Type",
@@ -1038,11 +1038,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A=\""
+          "Value": "\"dZRP1pv8kfJjn9AyfFEhRPfz6mF1jXbla8Dv0va1oDs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 20:53:50 GMT"
+          "Value": "Sun, 08 Dec 2024 23:24:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1052,7 +1052,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A="
+          "Value": "sha256-dZRP1pv8kfJjn9AyfFEhRPfz6mF1jXbla8Dv0va1oDs="
         }
       ]
     },

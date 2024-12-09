@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\emptyparamspanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\datagridpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\datagridpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -57,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\botones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\botones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\crist\\onedrive\\documentos\\github\\digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\datagridpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\datagridpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -80,7 +80,7 @@
               "RelativeDocumentMoniker": "wwwroot\\extensions\\EmptyParamsPanel.js",
               "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsPanel.js",
               "RelativeToolTip": "wwwroot\\extensions\\EmptyParamsPanel.js",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwEEAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-12-08T16:52:37.923Z",
               "EditorCaption": ""
@@ -88,19 +88,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
-              "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-02T21:38:28.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "viewer.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
               "RelativeDocumentMoniker": "wwwroot\\viewer.js",
@@ -108,12 +95,11 @@
               "RelativeToolTip": "wwwroot\\viewer.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwB4AAAAtAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-05T21:23:57.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T21:23:57.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
               "RelativeDocumentMoniker": "wwwroot\\main.js",
@@ -121,12 +107,11 @@
               "RelativeToolTip": "wwwroot\\main.js",
               "ViewState": "AgIAAGMAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-04T03:44:02.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T03:44:02.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EmptyParamsExtension.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsExtension.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\EmptyParamsExtension.js",
@@ -134,12 +119,36 @@
               "RelativeToolTip": "wwwroot\\extensions\\EmptyParamsExtension.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-08T16:53:40.166Z",
+              "WhenOpened": "2024-12-08T16:53:40.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataGridPanel.js",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridPanel.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\DataGridPanel.js",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridPanel.js",
+              "RelativeToolTip": "wwwroot\\extensions\\DataGridPanel.js",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwHUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T20:33:13.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-02T21:38:28.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.css",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
               "RelativeDocumentMoniker": "wwwroot\\main.css",
@@ -147,12 +156,11 @@
               "RelativeToolTip": "wwwroot\\main.css",
               "ViewState": "AgIAAE8BAAAAAAAAAAAYwGQBAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-02T21:38:49.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T21:38:49.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "HistogramExtension.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramExtension.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\HistogramExtension.js",
@@ -164,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "HistogramPanel.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramPanel.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\HistogramPanel.js",
@@ -176,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BaseExtension.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\BaseExtension.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\BaseExtension.js",
@@ -188,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DataGridExtension.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridExtension.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\DataGridExtension.js",
@@ -201,18 +209,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "DataGridPanel.js",
-              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridPanel.js",
-              "RelativeDocumentMoniker": "wwwroot\\extensions\\DataGridPanel.js",
-              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridPanel.js",
-              "RelativeToolTip": "wwwroot\\extensions\\DataGridPanel.js",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAIwHUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-05T20:33:13.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "botones.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
               "RelativeDocumentMoniker": "wwwroot\\botones.js",
@@ -230,7 +226,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProgressBarPanel.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarPanel.js",
@@ -243,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "sidebar.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\sidebar.js",
               "RelativeDocumentMoniker": "wwwroot\\sidebar.js",
@@ -255,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProgressBarExtension.js",
               "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documentos\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarExtension.js",
@@ -263,8 +259,7 @@
               "RelativeToolTip": "wwwroot\\extensions\\ProgressBarExtension.js",
               "ViewState": "AgIAAAcAAAAAAAAAAAAgwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-05T21:34:28.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T21:34:28.245Z"
             }
           ]
         }

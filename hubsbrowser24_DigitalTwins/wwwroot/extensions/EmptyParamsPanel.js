@@ -28,9 +28,9 @@
             'ACM_BIM_DescripcionLarga',
             'ACM_BIM_DIS',
             'Assembly Code',
-            'ACM_BIM_OmniclassNumber',
-            'ACM_BIM_OmniclassCategory',
-            'ACM_BIM_BIMKey',
+            'ACM_BIM_OmniClassNumber',
+            'ACM_BIM_OmniClassCategory',
+            'ACM_BIMKey',
             'ACM_BIM_Estado',
             'ACM_QTO_CBS1'
         ];

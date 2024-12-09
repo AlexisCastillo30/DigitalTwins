@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8bk3wvsebm</Fingerprint>
-      <Integrity>bDo/gtNK9Z7y3Z3LFrxm9R0mjs8lT9+BtGRpLPx4Y6A=</Integrity>
+      <Fingerprint>5scnwpppca</Fingerprint>
+      <Integrity>dZRP1pv8kfJjn9AyfFEhRPfz6mF1jXbla8Dv0va1oDs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\extensions\EmptyParamsPanel.js'))</OriginalItemSpec>
